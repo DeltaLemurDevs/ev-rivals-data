@@ -1,0 +1,1814 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-11-01",
+  "app": "EV Rivals",
+  "market": "UK",
+  "currency": "GBP",
+  "specDefinitions": [
+    {
+      "key": "price",
+      "label": "Price (new, from)",
+      "unit": "GBP",
+      "better": "lower"
+    },
+    {
+      "key": "range",
+      "label": "Range (WLTP)",
+      "unit": "miles",
+      "better": "higher"
+    },
+    {
+      "key": "battery",
+      "label": "Battery",
+      "unit": "kWh",
+      "better": "higher"
+    },
+    {
+      "key": "dc",
+      "label": "Max rapid charge",
+      "unit": "kW",
+      "better": "higher"
+    },
+    {
+      "key": "power",
+      "label": "Power",
+      "unit": "hp",
+      "better": "higher"
+    },
+    {
+      "key": "torque",
+      "label": "Torque",
+      "unit": "Nm",
+      "better": "higher"
+    },
+    {
+      "key": "zero62",
+      "label": "0–62 mph",
+      "unit": "seconds",
+      "better": "lower"
+    },
+    {
+      "key": "top",
+      "label": "Top speed",
+      "unit": "mph",
+      "better": "higher"
+    },
+    {
+      "key": "boot",
+      "label": "Boot (seats up)",
+      "unit": "litres",
+      "better": "higher"
+    },
+    {
+      "key": "bootMax",
+      "label": "Boot (seats down)",
+      "unit": "litres",
+      "better": "higher"
+    },
+    {
+      "key": "weight",
+      "label": "Kerb weight",
+      "unit": "kg",
+      "better": "lower"
+    }
+  ],
+  "derived": [
+    {
+      "key": "eff",
+      "label": "Efficiency",
+      "unit": "mi/kWh",
+      "better": "higher",
+      "formula": "range / battery"
+    }
+  ],
+  "cars": [
+    {
+      "id": "megane",
+      "make": "Renault",
+      "model": "Megane E-Tech",
+      "version": "EV60 220hp Techno, 20in wheels",
+      "modelYear": 2022,
+      "onSale": {
+        "from": 2022,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "Business Car, CarGurus",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 38495,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 280,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 60,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 130,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 217,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 300,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 7.4,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 99,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 440,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 1332,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1636,
+          "status": "unconfirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "atto2b",
+      "make": "BYD",
+      "model": "Atto 2",
+      "version": "Boost 51.1 kWh",
+      "modelYear": 2025,
+      "onSale": {
+        "from": 2025,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "BYD UK pricing, Aug 2025",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 30850,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 214,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 51.1,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 82,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 174,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 290,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 7.9,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 99,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 400,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 1340,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1590,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "atto2c",
+      "make": "BYD",
+      "model": "Atto 2",
+      "version": "Comfort 64.8 kWh",
+      "modelYear": 2025,
+      "onSale": {
+        "from": 2025,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "BYD UK pricing, Aug 2025",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 34950,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 261,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 64.8,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 155,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 201,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 310,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 7.9,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 99,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 400,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 1340,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1680,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "mg4",
+      "make": "MG",
+      "model": "MG4 EV",
+      "version": "SE Long Range 64 kWh",
+      "modelYear": 2022,
+      "onSale": {
+        "from": 2022,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "Auto Express",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 29495,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 288,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 64,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 140,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 203,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 250,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 7.9,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 100,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 363,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 1177,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1685,
+          "status": "unconfirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "zsev",
+      "make": "MG",
+      "model": "ZS EV",
+      "version": "SE Long Range 73 kWh",
+      "modelYear": 2021,
+      "onSale": {
+        "from": 2021,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "Carbuyer",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 32995,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 273,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 68.3,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 100,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 156,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 280,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 8.4,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 108,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 470,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 1100,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1620,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "ev2",
+      "make": "Kia",
+      "model": "EV2",
+      "version": "42 kWh First Edition",
+      "modelYear": 2026,
+      "onSale": {
+        "from": 2026,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "Fleet News, Motoring Research",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 26995,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 191,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 42.2,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 115,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 145,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 8.5,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 100,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 362,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 1201,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1620,
+          "status": "unconfirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "ev3",
+      "make": "Kia",
+      "model": "EV3",
+      "version": "Long Range 81.4 kWh Air",
+      "modelYear": 2024,
+      "onSale": {
+        "from": 2024,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "Kia UK, EV Database",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 35215,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 375,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 81.4,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 128,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 201,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 283,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 7.7,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 105,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 460,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 1251,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1885,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "ev6",
+      "make": "Kia",
+      "model": "EV6",
+      "version": "84 kWh Air RWD",
+      "modelYear": 2024,
+      "onSale": {
+        "from": 2024,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "Kia UK, Fleet News",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 45635,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 361,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 84,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 258,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 225,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 350,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 7.3,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 115,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 490,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 1290,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 2050,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "ev9",
+      "make": "Kia",
+      "model": "EV9",
+      "version": "99.8 kWh Air RWD, 7 seats",
+      "modelYear": 2023,
+      "onSale": {
+        "from": 2023,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "Kia UK, DrivingElectric",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 64995,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 349,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 99.8,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 210,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 200,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 350,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 9.4,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 114,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 333,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 2318,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 2492,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-19sr",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Standard Range Plus RWD",
+      "modelYear": 2019,
+      "onSale": {
+        "from": 2019,
+        "to": 2020
+      },
+      "status": "discontinued",
+      "priceBasis": "when-new",
+      "source": "EV Database #1177",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 43490,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 254,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 53.1,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 170,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 321,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 420,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 5.6,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 140,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 542,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 977,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1684,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-19lr",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Long Range AWD",
+      "modelYear": 2019,
+      "onSale": {
+        "from": 2019,
+        "to": 2020
+      },
+      "status": "discontinued",
+      "priceBasis": "when-new",
+      "source": "EV Database #1138",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 49990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 348,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 78.8,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 434,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 493,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 4.6,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 145,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 542,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1931,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-19p",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Performance AWD",
+      "modelYear": 2019,
+      "onSale": {
+        "from": 2019,
+        "to": 2020
+      },
+      "status": "discontinued",
+      "priceBasis": "when-new",
+      "source": "EV Database #1139; Tesla 0–62",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 56490,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 329,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 78.8,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 506,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 660,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 3.4,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 162,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 542,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 977,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1931,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-21sr",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Standard Range Plus RWD",
+      "modelYear": 2021,
+      "onSale": {
+        "from": 2021,
+        "to": 2021
+      },
+      "status": "discontinued",
+      "priceBasis": "when-new",
+      "source": "EV Database #1485",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 40990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 278,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 55,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 170,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 279,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 420,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 5.6,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 140,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 561,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 977,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1700,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-22rwd",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "RWD 60 kWh",
+      "modelYear": 2022,
+      "onSale": {
+        "from": 2022,
+        "to": 2023
+      },
+      "status": "discontinued",
+      "priceBasis": "when-new",
+      "source": "EV Database #1555",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 42990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 305,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 60,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 170,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 279,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 420,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 6.1,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 140,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 561,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 977,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1835,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-22lr",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Long Range AWD",
+      "modelYear": 2022,
+      "onSale": {
+        "from": 2022,
+        "to": 2023
+      },
+      "status": "discontinued",
+      "priceBasis": "when-new",
+      "source": "EV Database #1591",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 50990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 382,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 78.1,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 491,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 493,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 4.4,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 145,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 561,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1919,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-22p",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Performance AWD",
+      "modelYear": 2022,
+      "onSale": {
+        "from": 2022,
+        "to": 2023
+      },
+      "status": "discontinued",
+      "priceBasis": "when-new",
+      "source": "EV Database #1620",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 57990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 340,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 78.1,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 527,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 660,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 3.5,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 162,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 561,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1919,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-24rwd",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Highland RWD",
+      "modelYear": 2024,
+      "onSale": {
+        "from": 2023,
+        "to": 2025
+      },
+      "status": "discontinued",
+      "priceBasis": "when-new",
+      "source": "EV Database #1991",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 39990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 319,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 60,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 170,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 279,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 420,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 6.1,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 125,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 594,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 977,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1836,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-24lr",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Highland Long Range AWD",
+      "modelYear": 2024,
+      "onSale": {
+        "from": 2023,
+        "to": 2025
+      },
+      "status": "discontinued",
+      "priceBasis": "when-new",
+      "source": "EV Database #1992",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 49990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 421,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 78.1,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 491,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 493,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 4.4,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 125,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 594,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 977,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1899,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-24p",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Highland Performance AWD",
+      "modelYear": 2024,
+      "onSale": {
+        "from": 2024,
+        "to": 2025
+      },
+      "status": "discontinued",
+      "priceBasis": "when-new",
+      "source": "Tesla UK launch figures via Motoring Research, Apr 2024; EV Database",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 59990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 328,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 82,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 460,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 741,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 3.1,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 163,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 594,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 977,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1929,
+          "status": "unconfirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-25lrr",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Highland Long Range RWD",
+      "modelYear": 2025,
+      "onSale": {
+        "from": 2024,
+        "to": 2025
+      },
+      "status": "discontinued",
+      "priceBasis": "when-new",
+      "source": "EV Database #3034",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 44990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 436,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 78.1,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 315,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 450,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 5.2,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 125,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 594,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 977,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1822,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-26std",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Standard RWD",
+      "modelYear": 2026,
+      "onSale": {
+        "from": 2026,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "EV Database #3403, Carwow, Nov 2026",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 37990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 332,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 64,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 175,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 279,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 420,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 6.2,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 125,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 594,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 977,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1847,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-26prwd",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Premium RWD",
+      "modelYear": 2026,
+      "onSale": {
+        "from": 2026,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "EV Database #3404, Nov 2026",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 44990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 466,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 82,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 315,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 450,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 5.2,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 125,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 594,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 977,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1822,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-26pawd",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Premium AWD",
+      "modelYear": 2026,
+      "onSale": {
+        "from": 2026,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "EV Database #3842, Nov 2026",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 49990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 410,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 82,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 491,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 493,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 4,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 125,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 594,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 977,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1899,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    },
+    {
+      "id": "m3-26p",
+      "make": "Tesla",
+      "model": "Model 3",
+      "version": "Performance AWD",
+      "modelYear": 2026,
+      "onSale": {
+        "from": 2026,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": "EV Database #3841, Tesla UK 0–62, Nov 2026",
+      "checked": "2026-11-01",
+      "specs": {
+        "price": {
+          "value": 59990,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "range": {
+          "value": 373,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "battery": {
+          "value": 82,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 460,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 741,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 3.1,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 163,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 594,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 977,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1929,
+          "status": "confirmed",
+          "confirmation": null
+        }
+      }
+    }
+  ]
+}

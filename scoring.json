@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "method": {
+    "name": "middle-car",
+    "summary": "Each figure is scored 0-100 against the reference cars. The middle car (median) scores 50; one 'step' is the typical spread (interquartile range / 1.349). score = 50 + 50 * tanh(direction * (value - median) / step / 3), limited to 0-100.",
+    "referenceSet": "cars with status 'current'",
+    "minReferenceCars": 4,
+    "fallbackIfTooFew": "use every car in the file",
+    "quantile": "linear interpolation between sorted values: position = (n - 1) * p",
+    "stepFallback": "if the interquartile range is 0, use the population standard deviation; if that is also 0, every car scores 50",
+    "softness": 3
+  },
+  "metrics": [
+    {
+      "key": "eff",
+      "better": "higher",
+      "direction": 1
+    },
+    {
+      "key": "price",
+      "better": "lower",
+      "direction": -1
+    },
+    {
+      "key": "weight",
+      "better": "lower",
+      "direction": -1
+    },
+    {
+      "key": "range",
+      "better": "higher",
+      "direction": 1
+    },
+    {
+      "key": "boot",
+      "better": "higher",
+      "direction": 1
+    },
+    {
+      "key": "bootMax",
+      "better": "higher",
+      "direction": 1
+    },
+    {
+      "key": "dc",
+      "better": "higher",
+      "direction": 1
+    },
+    {
+      "key": "zero62",
+      "better": "lower",
+      "direction": -1
+    },
+    {
+      "key": "top",
+      "better": "higher",
+      "direction": 1
+    },
+    {
+      "key": "power",
+      "better": "higher",
+      "direction": 1
+    },
+    {
+      "key": "torque",
+      "better": "higher",
+      "direction": 1
+    }
+  ],
+  "groups": [
+    {
+      "id": "eco",
+      "label": "Eco",
+      "description": "Efficiency, price, weight",
+      "metrics": [
+        "eff",
+        "price",
+        "weight"
+      ]
+    },
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "description": "Range, boot space, rapid charging",
+      "metrics": [
+        "range",
+        "boot",
+        "bootMax",
+        "dc"
+      ]
+    },
+    {
+      "id": "perf",
+      "label": "Performance",
+      "description": "0–62, top speed, power, torque",
+      "metrics": [
+        "zero62",
+        "top",
+        "power",
+        "torque"
+      ]
+    }
+  ],
+  "priorities": {
+    "levels": [
+      "Off",
+      "Low",
+      "Medium",
+      "High"
+    ],
+    "min": 0,
+    "max": 3,
+    "default": {
+      "eco": 1,
+      "comfort": 1,
+      "perf": 1
+    }
+  },
+  "combine": {
+    "group": "average of the group's metric scores that are available",
+    "overall": "average of group scores weighted by priority; groups with priority 0 or no score are left out; if nothing is left, no overall score",
+    "headToHead": "in a comparison, a metric only counts if BOTH cars have it, so a car's score alone can differ from its score in a pair"
+  },
+  "radar": [
+    {
+      "label": "Power",
+      "metrics": [
+        "power"
+      ]
+    },
+    {
+      "label": "Acceleration",
+      "metrics": [
+        "zero62"
+      ]
+    },
+    {
+      "label": "Efficiency",
+      "metrics": [
+        "eff"
+      ]
+    },
+    {
+      "label": "Range",
+      "metrics": [
+        "range"
+      ]
+    },
+    {
+      "label": "Practicality",
+      "metrics": [
+        "boot",
+        "bootMax"
+      ],
+      "combine": "average of whichever are known"
+    },
+    {
+      "label": "Weight",
+      "metrics": [
+        "weight"
+      ]
+    }
+  ],
+  "derived": {
+    "eff": "range / battery (only if both known and battery > 0)"
+  },
+  "display": {
+    "round": "nearest whole number for display only",
+    "verdict": "compare rounded overall scores: equal -> 'Level', else '<car> leads by N'"
+  }
+}
