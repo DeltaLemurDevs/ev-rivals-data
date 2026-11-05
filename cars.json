@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-05",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -128,9 +128,13 @@
           "confirmation": null
         },
         "zero62": {
-          "value": 7.4,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 7.5,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-05",
+            "source": "AutoTrader.co.uk",
+            "by": "Nick"
+          }
         },
         "top": {
           "value": 99,
