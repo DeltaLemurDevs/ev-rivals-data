@@ -277,8 +277,12 @@
         },
         "zero62": {
           "value": 7.9,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-05",
+            "source": "BYD.com",
+            "by": "Nick"
+          }
         },
         "top": {
           "value": 99,
