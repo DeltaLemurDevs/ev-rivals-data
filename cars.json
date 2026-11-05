@@ -1817,6 +1817,86 @@
           "confirmation": null
         }
       }
+    },
+    {
+      "id": "ariya-26-63",
+      "make": "Nissan",
+      "model": "Ariya",
+      "version": "63kWh Engage+",
+      "modelYear": 2026,
+      "onSale": {
+        "from": 2026,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "source": null,
+      "checked": "2026-11-05",
+      "specs": {
+        "price": {
+          "value": 37000,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-05",
+            "source": "Nissan UK",
+            "by": "Nick"
+          }
+        },
+        "range": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-05",
+            "source": "Nissan UK",
+            "by": "Nick"
+          }
+        },
+        "battery": {
+          "value": 63,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "dc": {
+          "value": 130,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "power": {
+          "value": 217,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "torque": {
+          "value": 300,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 7.5,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "top": {
+          "value": 99,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "boot": {
+          "value": 466,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 1350,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1993,
+          "status": "unconfirmed",
+          "confirmation": null
+        }
+      }
     }
   ]
 }
