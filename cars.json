@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -86,7 +86,7 @@
       "id": "megane",
       "make": "Renault",
       "model": "Megane E-Tech",
-      "version": "EV60 220hp Techno, 20in wheels",
+      "version": "EV60 220hp Techno",
       "modelYear": 2022,
       "onSale": {
         "from": 2022,
