@@ -121,6 +121,25 @@
     "overall": "average of group scores weighted by priority; groups with priority 0 or no score are left out; if nothing is left, no overall score",
     "headToHead": "in a comparison, a metric only counts if BOTH cars have it, so a car's score alone can differ from its score in a pair"
   },
+  "classScore": {
+    "summary": "Same method as the main score, but each figure is scored only against cars in the same segment (classification.segment). Used in the Garage and Rankings, never in Compare.",
+    "groupBy": "classification.segment",
+    "referenceSet": "cars with status 'current' in the same segment",
+    "minReferenceCars": 3,
+    "fallbackIfTooFew": "use every car in the file in the same segment",
+    "ifStillTooFew": "that figure has no class score; if no figure has one, the car has no class score and the app shows 'Not enough cars in this class yet'",
+    "noSegment": "a car without a segment has no class score",
+    "everythingElse": "middle, step, softness, groups, priorities and rounding are exactly as in 'method' and 'combine'"
+  },
+  "notScored": {
+    "keys": [
+      "battery",
+      "insuranceGroup",
+      "cd",
+      "length"
+    ],
+    "why": "Battery is covered by range and efficiency. Insurance group and drag coefficient are shown and ticked in Compare but not scored yet. Length is shown only."
+  },
   "radar": [
     {
       "label": "Power",

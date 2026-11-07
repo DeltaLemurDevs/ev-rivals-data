@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-06",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -70,6 +70,18 @@
       "label": "Kerb weight",
       "unit": "kg",
       "better": "lower"
+    },
+    {
+      "key": "insuranceGroup",
+      "label": "Insurance group",
+      "unit": "group",
+      "better": "lower"
+    },
+    {
+      "key": "cd",
+      "label": "Drag coefficient",
+      "unit": "Cd",
+      "better": "lower"
     }
   ],
   "derived": [
@@ -81,27 +93,75 @@
       "formula": "range / battery"
     }
   ],
+  "infoDefinitions": [
+    {
+      "key": "length",
+      "label": "Length",
+      "unit": "mm",
+      "note": "Shown only. Not compared or scored."
+    }
+  ],
+  "segments": [
+    {
+      "id": "A",
+      "label": "City car"
+    },
+    {
+      "id": "B",
+      "label": "Small"
+    },
+    {
+      "id": "C",
+      "label": "Medium"
+    },
+    {
+      "id": "D",
+      "label": "Large"
+    },
+    {
+      "id": "E",
+      "label": "Executive"
+    },
+    {
+      "id": "F",
+      "label": "Luxury"
+    }
+  ],
+  "bodyTypes": [
+    "hatchback",
+    "saloon",
+    "estate",
+    "suv",
+    "mpv",
+    "coupe",
+    "convertible"
+  ],
   "cars": [
     {
       "id": "megane",
       "make": "Renault",
-      "model": "Megane",
-      "version": "EV60 Techno",
+      "model": "Megane E-Tech",
+      "version": "EV60 220hp Techno, 20in wheels",
       "modelYear": 2022,
       "onSale": {
         "from": 2022,
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "C",
+        "bodyType": "hatchback",
+        "status": "confirmed",
+        "note": "Renault UK lists it as segment C"
+      },
       "priceBasis": "current",
+      "source": "Business Car, CarGurus",
       "checked": "2026-11-01",
       "specs": {
         "price": {
-          "value": 37995,
-          "status": "confirmed",
-          "confirmation": {
-            "on": "2026-11-07"
-          }
+          "value": 38495,
+          "status": "unconfirmed",
+          "confirmation": null
         },
         "range": {
           "value": 280,
@@ -125,24 +185,22 @@
         },
         "torque": {
           "value": 300,
-          "status": "confirmed",
-          "confirmation": {
-            "on": "2026-11-07"
-          }
+          "status": "unconfirmed",
+          "confirmation": null
         },
         "zero62": {
           "value": 7.5,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-05"
+            "on": "2026-11-05",
+            "source": "AutoTrader.co.uk",
+            "by": "Nick"
           }
         },
         "top": {
           "value": 99,
-          "status": "confirmed",
-          "confirmation": {
-            "on": "2026-11-07"
-          }
+          "status": "unconfirmed",
+          "confirmation": null
         },
         "boot": {
           "value": 440,
@@ -156,10 +214,23 @@
         },
         "weight": {
           "value": 1636,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 25,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.29,
           "status": "confirmed",
-          "confirmation": {
-            "on": "2026-11-07"
-          }
+          "confirmation": null
+        },
+        "length": {
+          "value": 4200,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -174,7 +245,14 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "B",
+        "bodyType": "suv",
+        "status": "unconfirmed",
+        "note": "4.31 m long: most sources say B-SUV, some dealers say C-SUV"
+      },
       "priceBasis": "current",
+      "source": "BYD UK pricing, Aug 2025",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -231,6 +309,21 @@
           "value": 1590,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 30,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.29,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4310,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -245,7 +338,14 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "B",
+        "bodyType": "suv",
+        "status": "unconfirmed",
+        "note": "4.31 m long: most sources say B-SUV, some dealers say C-SUV"
+      },
       "priceBasis": "current",
+      "source": "BYD UK pricing, Aug 2025",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -282,7 +382,9 @@
           "value": 7.9,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-05"
+            "on": "2026-11-05",
+            "source": "BYD.com",
+            "by": "Nick"
           }
         },
         "top": {
@@ -304,6 +406,21 @@
           "value": 1680,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 32,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.29,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4310,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -318,7 +435,13 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "C",
+        "bodyType": "hatchback",
+        "status": "confirmed"
+      },
       "priceBasis": "current",
+      "source": "Auto Express",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -375,6 +498,21 @@
           "value": 1685,
           "status": "unconfirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 28,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.279,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4287,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -389,7 +527,13 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "B",
+        "bodyType": "suv",
+        "status": "unconfirmed"
+      },
       "priceBasis": "current",
+      "source": "Carbuyer",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -446,6 +590,21 @@
           "value": 1620,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 28,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4323,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -460,7 +619,14 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "B",
+        "bodyType": "suv",
+        "status": "confirmed",
+        "note": "Kia UK puts it in the B-SUV segment"
+      },
       "priceBasis": "current",
+      "source": "Fleet News, Motoring Research",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -517,6 +683,21 @@
           "value": 1620,
           "status": "unconfirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 21,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.29,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4060,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -531,7 +712,14 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "B",
+        "bodyType": "suv",
+        "status": "unconfirmed",
+        "note": "4.30 m long: sources split between B-SUV and C-SUV"
+      },
       "priceBasis": "current",
+      "source": "Kia UK, EV Database",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -588,6 +776,21 @@
           "value": 1885,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 35,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.263,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4300,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -602,7 +805,14 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "D",
+        "bodyType": "suv",
+        "status": "unconfirmed",
+        "note": "Crossover; some sources call it a C-SUV"
+      },
       "priceBasis": "current",
+      "source": "Kia UK, Fleet News",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -659,6 +869,21 @@
           "value": 2050,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 34,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.28,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4695,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -673,7 +898,14 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "E",
+        "bodyType": "suv",
+        "status": "unconfirmed",
+        "note": "Large 7-seat SUV"
+      },
       "priceBasis": "current",
+      "source": "Kia UK, DrivingElectric",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -730,6 +962,21 @@
           "value": 2492,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 45,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.28,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 5010,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -744,7 +991,13 @@
         "to": 2020
       },
       "status": "discontinued",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "when-new",
+      "source": "EV Database #1177",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -801,6 +1054,21 @@
           "value": 1684,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 48,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.23,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4694,
+          "status": "unconfirmed",
+          "confirmation": null
         }
       }
     },
@@ -815,7 +1083,13 @@
         "to": 2020
       },
       "status": "discontinued",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "when-new",
+      "source": "EV Database #1138",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -872,6 +1146,21 @@
           "value": 1931,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 50,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.23,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4694,
+          "status": "unconfirmed",
+          "confirmation": null
         }
       }
     },
@@ -886,7 +1175,13 @@
         "to": 2020
       },
       "status": "discontinued",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "when-new",
+      "source": "EV Database #1139; Tesla 0–62",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -943,6 +1238,21 @@
           "value": 1931,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 50,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.23,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4694,
+          "status": "unconfirmed",
+          "confirmation": null
         }
       }
     },
@@ -957,7 +1267,13 @@
         "to": 2021
       },
       "status": "discontinued",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "when-new",
+      "source": "EV Database #1485",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1014,6 +1330,21 @@
           "value": 1700,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 48,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.23,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4694,
+          "status": "unconfirmed",
+          "confirmation": null
         }
       }
     },
@@ -1028,7 +1359,13 @@
         "to": 2023
       },
       "status": "discontinued",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "when-new",
+      "source": "EV Database #1555",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1085,6 +1422,21 @@
           "value": 1835,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.23,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4694,
+          "status": "unconfirmed",
+          "confirmation": null
         }
       }
     },
@@ -1099,7 +1451,13 @@
         "to": 2023
       },
       "status": "discontinued",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "when-new",
+      "source": "EV Database #1591",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1156,6 +1514,21 @@
           "value": 1919,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 50,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.23,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4694,
+          "status": "unconfirmed",
+          "confirmation": null
         }
       }
     },
@@ -1170,7 +1543,13 @@
         "to": 2023
       },
       "status": "discontinued",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "when-new",
+      "source": "EV Database #1620",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1227,6 +1606,21 @@
           "value": 1919,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 50,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.23,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4694,
+          "status": "unconfirmed",
+          "confirmation": null
         }
       }
     },
@@ -1241,7 +1635,13 @@
         "to": 2025
       },
       "status": "discontinued",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "when-new",
+      "source": "EV Database #1991",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1298,6 +1698,21 @@
           "value": 1836,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.219,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4720,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -1312,7 +1727,13 @@
         "to": 2025
       },
       "status": "discontinued",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "when-new",
+      "source": "EV Database #1992",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1369,6 +1790,21 @@
           "value": 1899,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 41,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.219,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4720,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -1383,7 +1819,13 @@
         "to": 2025
       },
       "status": "discontinued",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "when-new",
+      "source": "Tesla UK launch figures via Motoring Research, Apr 2024; EV Database",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1440,6 +1882,21 @@
           "value": 1929,
           "status": "unconfirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 48,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.219,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4720,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -1454,7 +1911,13 @@
         "to": 2025
       },
       "status": "discontinued",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "when-new",
+      "source": "EV Database #3034",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1511,6 +1974,21 @@
           "value": 1822,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 38,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.219,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4720,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -1525,7 +2003,13 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "current",
+      "source": "EV Database #3403, Carwow, Nov 2026",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1582,6 +2066,21 @@
           "value": 1847,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 32,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.219,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4720,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -1596,7 +2095,13 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "current",
+      "source": "EV Database #3404, Nov 2026",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1653,6 +2158,21 @@
           "value": 1822,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 38,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.219,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4720,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -1667,7 +2187,13 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "current",
+      "source": "EV Database #3842, Nov 2026",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1724,6 +2250,21 @@
           "value": 1899,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 41,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.219,
+          "status": "confirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4720,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -1738,7 +2279,13 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "D",
+        "bodyType": "saloon",
+        "status": "confirmed"
+      },
       "priceBasis": "current",
+      "source": "EV Database #3841, Tesla UK 0–62, Nov 2026",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1795,6 +2342,21 @@
           "value": 1929,
           "status": "confirmed",
           "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 48,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.219,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4720,
+          "status": "confirmed",
+          "confirmation": null
         }
       }
     },
@@ -1809,21 +2371,32 @@
         "to": null
       },
       "status": "current",
+      "classification": {
+        "segment": "C",
+        "bodyType": "suv",
+        "status": "unconfirmed",
+        "note": "Rivals the Skoda Enyaq and VW ID.4 (C-SUV)"
+      },
       "priceBasis": "current",
+      "source": null,
       "checked": "2026-11-05",
       "specs": {
         "price": {
           "value": 37000,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-05"
+            "on": "2026-11-05",
+            "source": "Nissan UK",
+            "by": "Nick"
           }
         },
         "range": {
           "value": 250,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-05"
+            "on": "2026-11-05",
+            "source": "Nissan UK",
+            "by": "Nick"
           }
         },
         "battery": {
@@ -1869,6 +2442,21 @@
         "weight": {
           "value": 1993,
           "status": "unconfirmed",
+          "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": 31,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.297,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4595,
+          "status": "confirmed",
           "confirmation": null
         }
       }

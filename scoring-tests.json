@@ -1,6 +1,6 @@
 {
-  "note": "Expected results from the EV Rivals web app (the reference). The Swift app must match each value within 0.001. Displayed scores are these rounded to whole numbers.",
-  "carsFile": "cars.json updated 2026-11-01",
+  "note": "Expected results from the EV Rivals web app (the reference). The Swift app must match each value within 0.001. Displayed scores are these rounded to whole numbers. classSingle, classRankings and classEdgeCases test the 'for its class' score.",
+  "carsFile": "cars.json updated 2026-11-06",
   "single": [
     {
       "car": "m3-26std",
@@ -9,11 +9,11 @@
         "comfort": 1,
         "perf": 1
       },
-      "overall": 59.1857,
+      "overall": 60.0503,
       "groups": {
-        "eco": 58.4873,
-        "comfort": 51.2275,
-        "perf": 67.8423
+        "eco": 57.3033,
+        "comfort": 52.6729,
+        "perf": 70.1748
       }
     },
     {
@@ -23,11 +23,11 @@
         "comfort": 1,
         "perf": 1
       },
-      "overall": 46.9566,
+      "overall": 47.1232,
       "groups": {
-        "eco": 55.3069,
-        "comfort": 41.0936,
-        "perf": 44.4691
+        "eco": 56.3212,
+        "comfort": 41.7829,
+        "perf": 43.2653
       }
     },
     {
@@ -37,11 +37,11 @@
         "comfort": 1,
         "perf": 1
       },
-      "overall": 40.0027,
+      "overall": 40.6235,
       "groups": {
-        "eco": 11.5333,
-        "comfort": 60.9832,
-        "perf": 47.4918
+        "eco": 12.989,
+        "comfort": 62.2373,
+        "perf": 46.6441
       }
     },
     {
@@ -51,11 +51,11 @@
         "comfort": 1,
         "perf": 1
       },
-      "overall": 60.5637,
+      "overall": 62.5843,
       "groups": {
-        "eco": 38.5044,
-        "comfort": 59.9357,
-        "perf": 83.2511
+        "eco": 38.8626,
+        "comfort": 62.6584,
+        "perf": 86.232
       }
     },
     {
@@ -65,11 +65,11 @@
         "comfort": 1,
         "perf": 1
       },
-      "overall": 45.6618,
+      "overall": 45.8506,
       "groups": {
-        "eco": 50.8085,
-        "comfort": 42.9587,
-        "perf": 43.2183
+        "eco": 52.1186,
+        "comfort": 43.7988,
+        "perf": 41.6343
       }
     },
     {
@@ -79,11 +79,11 @@
         "comfort": 1,
         "perf": 0
       },
-      "overall": 56.6723,
+      "overall": 56.1457,
       "groups": {
-        "eco": 58.4873,
-        "comfort": 51.2275,
-        "perf": 67.8423
+        "eco": 57.3033,
+        "comfort": 52.6729,
+        "perf": 70.1748
       }
     },
     {
@@ -93,11 +93,11 @@
         "comfort": 1,
         "perf": 0
       },
-      "overall": 51.7536,
+      "overall": 52.6866,
       "groups": {
-        "eco": 55.3069,
-        "comfort": 41.0936,
-        "perf": 44.4691
+        "eco": 56.3212,
+        "comfort": 41.7829,
+        "perf": 43.2653
       }
     },
     {
@@ -107,11 +107,11 @@
         "comfort": 1,
         "perf": 0
       },
-      "overall": 23.8958,
+      "overall": 25.3011,
       "groups": {
-        "eco": 11.5333,
-        "comfort": 60.9832,
-        "perf": 47.4918
+        "eco": 12.989,
+        "comfort": 62.2373,
+        "perf": 46.6441
       }
     },
     {
@@ -121,11 +121,11 @@
         "comfort": 1,
         "perf": 0
       },
-      "overall": 43.8622,
+      "overall": 44.8115,
       "groups": {
-        "eco": 38.5044,
-        "comfort": 59.9357,
-        "perf": 83.2511
+        "eco": 38.8626,
+        "comfort": 62.6584,
+        "perf": 86.232
       }
     },
     {
@@ -135,11 +135,11 @@
         "comfort": 1,
         "perf": 0
       },
-      "overall": 48.8461,
+      "overall": 50.0386,
       "groups": {
-        "eco": 50.8085,
-        "comfort": 42.9587,
-        "perf": 43.2183
+        "eco": 52.1186,
+        "comfort": 43.7988,
+        "perf": 41.6343
       }
     },
     {
@@ -149,11 +149,11 @@
         "comfort": 3,
         "perf": 1
       },
-      "overall": 56.4166,
+      "overall": 57.1333,
       "groups": {
-        "eco": 58.4873,
-        "comfort": 51.2275,
-        "perf": 67.8423
+        "eco": 57.3033,
+        "comfort": 52.6729,
+        "perf": 70.1748
       }
     },
     {
@@ -163,11 +163,11 @@
         "comfort": 3,
         "perf": 1
       },
-      "overall": 46.394,
+      "overall": 46.8761,
       "groups": {
-        "eco": 55.3069,
-        "comfort": 41.0936,
-        "perf": 44.4691
+        "eco": 56.3212,
+        "comfort": 41.7829,
+        "perf": 43.2653
       }
     },
     {
@@ -177,11 +177,11 @@
         "comfort": 3,
         "perf": 1
       },
-      "overall": 42.2513,
+      "overall": 43.2223,
       "groups": {
-        "eco": 11.5333,
-        "comfort": 60.9832,
-        "perf": 47.4918
+        "eco": 12.989,
+        "comfort": 62.2373,
+        "perf": 46.6441
       }
     },
     {
@@ -191,11 +191,11 @@
         "comfort": 3,
         "perf": 1
       },
-      "overall": 56.6778,
+      "overall": 58.6554,
       "groups": {
-        "eco": 38.5044,
-        "comfort": 59.9357,
-        "perf": 83.2511
+        "eco": 38.8626,
+        "comfort": 62.6584,
+        "perf": 86.232
       }
     },
     {
@@ -205,11 +205,11 @@
         "comfort": 3,
         "perf": 1
       },
-      "overall": 45.6186,
+      "overall": 46.2113,
       "groups": {
-        "eco": 50.8085,
-        "comfort": 42.9587,
-        "perf": 43.2183
+        "eco": 52.1186,
+        "comfort": 43.7988,
+        "perf": 41.6343
       }
     }
   ],
@@ -222,20 +222,20 @@
         "comfort": 1,
         "perf": 1
       },
-      "overallA": 59.1857,
-      "overallB": 47.4233,
+      "overallA": 60.0503,
+      "overallB": 47.9667,
       "groups": {
         "eco": {
-          "a": 58.4873,
-          "b": 48.4883
+          "a": 57.3033,
+          "b": 49.7628
         },
         "comfort": {
-          "a": 51.2275,
-          "b": 46.5906
+          "a": 52.6729,
+          "b": 47.6532
         },
         "perf": {
-          "a": 67.8423,
-          "b": 47.191
+          "a": 70.1748,
+          "b": 46.484
         }
       }
     },
@@ -247,20 +247,20 @@
         "comfort": 2,
         "perf": 3
       },
-      "overallA": 61.1964,
-      "overallB": 46.9509,
+      "overallA": 63.174,
+      "overallB": 46.9517,
       "groups": {
         "eco": {
-          "a": 58.4873,
-          "b": 48.4883
+          "a": 57.3033,
+          "b": 49.7628
         },
         "comfort": {
-          "a": 51.2275,
-          "b": 46.5906
+          "a": 52.6729,
+          "b": 47.6532
         },
         "perf": {
-          "a": 67.8423,
-          "b": 47.191
+          "a": 70.1748,
+          "b": 46.484
         }
       }
     },
@@ -272,20 +272,20 @@
         "comfort": 1,
         "perf": 1
       },
-      "overallA": 60.5637,
-      "overallB": 65.2457,
+      "overallA": 62.5843,
+      "overallB": 66.6288,
       "groups": {
         "eco": {
-          "a": 38.5044,
-          "b": 48.0706
+          "a": 38.8626,
+          "b": 46.9337
         },
         "comfort": {
-          "a": 59.9357,
-          "b": 66.242
+          "a": 62.6584,
+          "b": 68.8124
         },
         "perf": {
-          "a": 83.2511,
-          "b": 81.4246
+          "a": 86.232,
+          "b": 84.1403
         }
       }
     },
@@ -297,20 +297,20 @@
         "comfort": 2,
         "perf": 3
       },
-      "overallA": 73.9249,
-      "overallB": 75.3516,
+      "overallA": 76.8026,
+      "overallB": 78.0091,
       "groups": {
         "eco": {
-          "a": 38.5044,
-          "b": 48.0706
+          "a": 38.8626,
+          "b": 46.9337
         },
         "comfort": {
-          "a": 59.9357,
-          "b": 66.242
+          "a": 62.6584,
+          "b": 68.8124
         },
         "perf": {
-          "a": 83.2511,
-          "b": 81.4246
+          "a": 86.232,
+          "b": 84.1403
         }
       }
     },
@@ -322,20 +322,20 @@
         "comfort": 1,
         "perf": 1
       },
-      "overallA": 40.0027,
-      "overallB": 49.054,
+      "overallA": 40.6235,
+      "overallB": 49.0384,
       "groups": {
         "eco": {
-          "a": 11.5333,
-          "b": 58.315
+          "a": 12.989,
+          "b": 58.6903
         },
         "comfort": {
-          "a": 60.9832,
-          "b": 43.7243
+          "a": 62.2373,
+          "b": 44.358
         },
         "perf": {
-          "a": 47.4918,
-          "b": 45.1226
+          "a": 46.6441,
+          "b": 44.067
         }
       }
     },
@@ -347,20 +347,20 @@
         "comfort": 2,
         "perf": 3
       },
-      "overallA": 52.8883,
-      "overallB": 44.5633,
+      "overallA": 52.8814,
+      "overallB": 44.1834,
       "groups": {
         "eco": {
-          "a": 11.5333,
-          "b": 58.315
+          "a": 12.989,
+          "b": 58.6903
         },
         "comfort": {
-          "a": 60.9832,
-          "b": 43.7243
+          "a": 62.2373,
+          "b": 44.358
         },
         "perf": {
-          "a": 47.4918,
-          "b": 45.1226
+          "a": 46.6441,
+          "b": 44.067
         }
       }
     }
@@ -369,34 +369,34 @@
     {
       "car": "m3-26p",
       "axes": {
-        "Power": 94.9101,
-        "Acceleration": 91.9346,
-        "Efficiency": 51.0664,
-        "Range": 59.1151,
-        "Practicality": 50.6155,
-        "Weight": 40.9535
+        "Power": 96.9103,
+        "Acceleration": 94.4799,
+        "Efficiency": 51.3761,
+        "Range": 63.0534,
+        "Practicality": 50.258,
+        "Weight": 42.3211
       }
     },
     {
       "car": "megane",
       "axes": {
-        "Power": 53.976,
-        "Acceleration": 53.9593,
-        "Efficiency": 56.5642,
-        "Range": 38.5172,
-        "Practicality": 52.9526,
-        "Weight": 65.3856
+        "Power": 52.4101,
+        "Acceleration": 51.5773,
+        "Efficiency": 55.8881,
+        "Range": 43.6709,
+        "Practicality": 52.0463,
+        "Weight": 65.7087
       }
     },
     {
       "car": "m3-22lr",
       "axes": {
-        "Power": 96.3687,
-        "Acceleration": 85.1418,
-        "Efficiency": 66.5025,
-        "Range": 61.056,
-        "Practicality": 61.496,
-        "Weight": 41.7829
+        "Power": 97.9628,
+        "Acceleration": 88.2835,
+        "Efficiency": 64.1616,
+        "Range": 64.8139,
+        "Practicality": 62.8225,
+        "Weight": 43.1228
       }
     }
   ],
@@ -417,20 +417,276 @@
       "carA": "m3-19lr",
       "carB": "m3-26pawd",
       "rule": "Boot (seats down) left out of Comfort for BOTH cars",
-      "comfortA": 59.9357,
-      "comfortB": 66.242
+      "comfortA": 62.6584,
+      "comfortB": 68.8124
     },
     {
       "case": "Same car alone vs in a pair can differ",
       "car": "m3-19lr",
-      "aloneComfort": 59.9357,
-      "inPairComfort": 59.9357
+      "aloneComfort": 62.6584,
+      "inPairComfort": 62.6584
     },
     {
       "case": "Middle car scores 50",
       "metric": "range",
-      "value": 332,
+      "value": 310.0,
       "score": 50
+    }
+  ],
+  "classSingle": [
+    {
+      "car": "ev2",
+      "segment": "B",
+      "priorities": {
+        "eco": 1,
+        "comfort": 1,
+        "perf": 1
+      },
+      "overall": 44.0067,
+      "groups": {
+        "eco": 64.5521,
+        "comfort": 38.4282,
+        "perf": 29.0398
+      }
+    },
+    {
+      "car": "ev3",
+      "segment": "B",
+      "priorities": {
+        "eco": 1,
+        "comfort": 1,
+        "perf": 1
+      },
+      "overall": 54.1948,
+      "groups": {
+        "eco": 35.9879,
+        "comfort": 66.6026,
+        "perf": 59.9938
+      }
+    },
+    {
+      "car": "atto2c",
+      "segment": "B",
+      "priorities": {
+        "eco": 0,
+        "comfort": 2,
+        "perf": 3
+      },
+      "overall": 61.9327,
+      "groups": {
+        "eco": 37.0619,
+        "comfort": 60.5842,
+        "perf": 62.8317
+      }
+    },
+    {
+      "car": "mg4",
+      "segment": "C",
+      "priorities": {
+        "eco": 1,
+        "comfort": 1,
+        "perf": 1
+      },
+      "overall": 46.1008,
+      "groups": {
+        "eco": 60.5853,
+        "comfort": 45.6166,
+        "perf": 32.1007
+      }
+    },
+    {
+      "car": "megane",
+      "segment": "C",
+      "priorities": {
+        "eco": 1,
+        "comfort": 1,
+        "perf": 1
+      },
+      "overall": 51.0328,
+      "groups": {
+        "eco": 53.0984,
+        "comfort": 50.0,
+        "perf": 50.0
+      }
+    },
+    {
+      "car": "ariya-26-63",
+      "segment": "C",
+      "priorities": {
+        "eco": 1,
+        "comfort": 1,
+        "perf": 1
+      },
+      "overall": 41.858,
+      "groups": {
+        "eco": 29.2513,
+        "comfort": 46.3227,
+        "perf": 50.0
+      }
+    },
+    {
+      "car": "ev6",
+      "segment": "D",
+      "priorities": {
+        "eco": 1,
+        "comfort": 1,
+        "perf": 1
+      },
+      "overall": 37.8732,
+      "groups": {
+        "eco": 31.0468,
+        "comfort": 49.7032,
+        "perf": 32.8696
+      }
+    },
+    {
+      "car": "m3-26std",
+      "segment": "D",
+      "priorities": {
+        "eco": 1,
+        "comfort": 1,
+        "perf": 1
+      },
+      "overall": 49.3299,
+      "groups": {
+        "eco": 66.7552,
+        "comfort": 37.1535,
+        "perf": 44.0811
+      }
+    },
+    {
+      "car": "m3-19lr",
+      "segment": "D",
+      "priorities": {
+        "eco": 1,
+        "comfort": 1,
+        "perf": 1
+      },
+      "overall": 45.7271,
+      "groups": {
+        "eco": 34.4035,
+        "comfort": 39.6734,
+        "perf": 63.1043
+      },
+      "note": "Discontinued car: scored against the current cars in its class"
+    },
+    {
+      "car": "ev9",
+      "segment": "E",
+      "priorities": {
+        "eco": 1,
+        "comfort": 1,
+        "perf": 1
+      },
+      "overall": null,
+      "groups": {
+        "eco": null,
+        "comfort": null,
+        "perf": null
+      },
+      "show": "– (Not enough cars in this class yet)"
+    }
+  ],
+  "classRankings": [
+    {
+      "segment": "B",
+      "priorities": {
+        "eco": 1,
+        "comfort": 1,
+        "perf": 1
+      },
+      "onSaleOnly": true,
+      "order": [
+        {
+          "car": "ev3",
+          "overall": 54.1948
+        },
+        {
+          "car": "atto2c",
+          "overall": 53.4926
+        },
+        {
+          "car": "atto2b",
+          "overall": 51.1834
+        },
+        {
+          "car": "zsev",
+          "overall": 47.7452
+        },
+        {
+          "car": "ev2",
+          "overall": 44.0067
+        }
+      ]
+    },
+    {
+      "segment": "C",
+      "priorities": {
+        "eco": 1,
+        "comfort": 1,
+        "perf": 1
+      },
+      "onSaleOnly": true,
+      "order": [
+        {
+          "car": "megane",
+          "overall": 51.0328
+        },
+        {
+          "car": "mg4",
+          "overall": 46.1008
+        },
+        {
+          "car": "ariya-26-63",
+          "overall": 41.858
+        }
+      ]
+    },
+    {
+      "segment": "D",
+      "priorities": {
+        "eco": 1,
+        "comfort": 1,
+        "perf": 1
+      },
+      "onSaleOnly": true,
+      "order": [
+        {
+          "car": "m3-26prwd",
+          "overall": 57.9072
+        },
+        {
+          "car": "m3-26pawd",
+          "overall": 53.0862
+        },
+        {
+          "car": "m3-26p",
+          "overall": 52.3515
+        },
+        {
+          "car": "m3-26std",
+          "overall": 49.3299
+        },
+        {
+          "car": "ev6",
+          "overall": 37.8732
+        }
+      ]
+    }
+  ],
+  "classEdgeCases": [
+    {
+      "case": "Only one car in the class (E)",
+      "car": "ev9",
+      "segment": "E",
+      "overall": null,
+      "show": "– (Not enough cars in this class yet)"
+    },
+    {
+      "case": "Class score uses only cars in the same segment",
+      "car": "ev2",
+      "absoluteOverall": 45.9998,
+      "classOverall": 44.0067
     }
   ]
 }

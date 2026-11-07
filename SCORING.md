@@ -56,7 +56,23 @@ A missing axis is drawn at 0 but labelled "no data". It is not a real 0.
 - Scores are kept unrounded and shown rounded to the nearest whole number.
 - The head-to-head verdict compares the **rounded** overall scores: equal means "Level", otherwise "<car> leads by N".
 
-## 7. Testing another app (e.g. Swift)
+## 7. For its class
+
+The Garage and Rankings also show a score **for its class**. Compare always uses the main score above.
+
+1. A car's class is its `classification.segment` (A to F).
+2. Each figure is scored exactly as in section 1, but the reference cars are only the **current cars in the same segment**.
+3. If fewer than **3** of those have the figure, every car in that segment is used instead (discontinued ones too).
+4. If there are still fewer than 3, that figure has no class score. If no figure has one, the car has no class score and the app shows "Not enough cars in this class yet".
+5. Groups and priorities then work exactly as in sections 2 and 3.
+
+The minimum is 3 here, not 4, because classes are much smaller than the whole list.
+
+## 8. Not scored
+
+Battery, insurance group, drag coefficient and length are not scored. Insurance group and drag coefficient are shown and ticked in Compare (lower is better). Length is shown only.
+
+## 9. Testing another app (e.g. Swift)
 
 Load `cars.json` and `scoring.json`, run every case in `scoring-tests.json`, and check each value is within 0.001.
-It covers 15 single-car scores, 6 head-to-heads, 3 radar charts and 4 edge cases.
+It covers 15 single-car scores, 6 head-to-heads, 3 radar charts and 4 edge cases, plus 10 class scores, 3 class rankings and 2 class edge cases.
