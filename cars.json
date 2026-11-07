@@ -526,8 +526,10 @@
       "specs": {
         "price": {
           "value": 32995,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-07"
+          }
         },
         "range": {
           "value": 273,
