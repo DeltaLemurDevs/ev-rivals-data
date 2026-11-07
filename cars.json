@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -151,11 +151,9 @@
       "classification": {
         "segment": "C",
         "bodyType": "hatchback",
-        "status": "confirmed",
-        "note": "Renault UK lists it as segment C"
+        "status": "confirmed"
       },
       "priceBasis": "current",
-      "source": "Business Car, CarGurus",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -192,9 +190,7 @@
           "value": 7.5,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-05",
-            "source": "AutoTrader.co.uk",
-            "by": "Nick"
+            "on": "2026-11-05"
           }
         },
         "top": {
@@ -248,11 +244,9 @@
       "classification": {
         "segment": "B",
         "bodyType": "suv",
-        "status": "unconfirmed",
-        "note": "4.31 m long: most sources say B-SUV, some dealers say C-SUV"
+        "status": "unconfirmed"
       },
       "priceBasis": "current",
-      "source": "BYD UK pricing, Aug 2025",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -341,11 +335,9 @@
       "classification": {
         "segment": "B",
         "bodyType": "suv",
-        "status": "unconfirmed",
-        "note": "4.31 m long: most sources say B-SUV, some dealers say C-SUV"
+        "status": "unconfirmed"
       },
       "priceBasis": "current",
-      "source": "BYD UK pricing, Aug 2025",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -382,9 +374,7 @@
           "value": 7.9,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-05",
-            "source": "BYD.com",
-            "by": "Nick"
+            "on": "2026-11-05"
           }
         },
         "top": {
@@ -441,7 +431,6 @@
         "status": "confirmed"
       },
       "priceBasis": "current",
-      "source": "Auto Express",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -533,7 +522,6 @@
         "status": "unconfirmed"
       },
       "priceBasis": "current",
-      "source": "Carbuyer",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -622,11 +610,9 @@
       "classification": {
         "segment": "B",
         "bodyType": "suv",
-        "status": "confirmed",
-        "note": "Kia UK puts it in the B-SUV segment"
+        "status": "confirmed"
       },
       "priceBasis": "current",
-      "source": "Fleet News, Motoring Research",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -715,11 +701,9 @@
       "classification": {
         "segment": "B",
         "bodyType": "suv",
-        "status": "unconfirmed",
-        "note": "4.30 m long: sources split between B-SUV and C-SUV"
+        "status": "unconfirmed"
       },
       "priceBasis": "current",
-      "source": "Kia UK, EV Database",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -808,11 +792,9 @@
       "classification": {
         "segment": "D",
         "bodyType": "suv",
-        "status": "unconfirmed",
-        "note": "Crossover; some sources call it a C-SUV"
+        "status": "unconfirmed"
       },
       "priceBasis": "current",
-      "source": "Kia UK, Fleet News",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -901,11 +883,9 @@
       "classification": {
         "segment": "E",
         "bodyType": "suv",
-        "status": "unconfirmed",
-        "note": "Large 7-seat SUV"
+        "status": "unconfirmed"
       },
       "priceBasis": "current",
-      "source": "Kia UK, DrivingElectric",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -997,7 +977,6 @@
         "status": "confirmed"
       },
       "priceBasis": "when-new",
-      "source": "EV Database #1177",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1089,7 +1068,6 @@
         "status": "confirmed"
       },
       "priceBasis": "when-new",
-      "source": "EV Database #1138",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1181,7 +1159,6 @@
         "status": "confirmed"
       },
       "priceBasis": "when-new",
-      "source": "EV Database #1139; Tesla 0–62",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1273,7 +1250,6 @@
         "status": "confirmed"
       },
       "priceBasis": "when-new",
-      "source": "EV Database #1485",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1365,7 +1341,6 @@
         "status": "confirmed"
       },
       "priceBasis": "when-new",
-      "source": "EV Database #1555",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1457,7 +1432,6 @@
         "status": "confirmed"
       },
       "priceBasis": "when-new",
-      "source": "EV Database #1591",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1549,7 +1523,6 @@
         "status": "confirmed"
       },
       "priceBasis": "when-new",
-      "source": "EV Database #1620",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1641,7 +1614,6 @@
         "status": "confirmed"
       },
       "priceBasis": "when-new",
-      "source": "EV Database #1991",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1733,7 +1705,6 @@
         "status": "confirmed"
       },
       "priceBasis": "when-new",
-      "source": "EV Database #1992",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1825,7 +1796,6 @@
         "status": "confirmed"
       },
       "priceBasis": "when-new",
-      "source": "Tesla UK launch figures via Motoring Research, Apr 2024; EV Database",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1917,7 +1887,6 @@
         "status": "confirmed"
       },
       "priceBasis": "when-new",
-      "source": "EV Database #3034",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -2009,7 +1978,6 @@
         "status": "confirmed"
       },
       "priceBasis": "current",
-      "source": "EV Database #3403, Carwow, Nov 2026",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -2101,7 +2069,6 @@
         "status": "confirmed"
       },
       "priceBasis": "current",
-      "source": "EV Database #3404, Nov 2026",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -2193,7 +2160,6 @@
         "status": "confirmed"
       },
       "priceBasis": "current",
-      "source": "EV Database #3842, Nov 2026",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -2285,7 +2251,6 @@
         "status": "confirmed"
       },
       "priceBasis": "current",
-      "source": "EV Database #3841, Tesla UK 0–62, Nov 2026",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -2374,29 +2339,23 @@
       "classification": {
         "segment": "C",
         "bodyType": "suv",
-        "status": "unconfirmed",
-        "note": "Rivals the Skoda Enyaq and VW ID.4 (C-SUV)"
+        "status": "unconfirmed"
       },
       "priceBasis": "current",
-      "source": null,
       "checked": "2026-11-05",
       "specs": {
         "price": {
           "value": 37000,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-05",
-            "source": "Nissan UK",
-            "by": "Nick"
+            "on": "2026-11-05"
           }
         },
         "range": {
           "value": 250,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-05",
-            "source": "Nissan UK",
-            "by": "Nick"
+            "on": "2026-11-05"
           }
         },
         "battery": {
