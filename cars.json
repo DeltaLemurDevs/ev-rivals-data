@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -98,9 +98,13 @@
       "checked": "2026-11-01",
       "specs": {
         "price": {
-          "value": 38495,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 37995,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-07",
+            "source": "EV-Database",
+            "by": "Nick"
+          }
         },
         "range": {
           "value": 280,
@@ -124,8 +128,12 @@
         },
         "torque": {
           "value": 300,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-07",
+            "source": "EV-database",
+            "by": "Nick"
+          }
         },
         "zero62": {
           "value": 7.5,
@@ -138,8 +146,12 @@
         },
         "top": {
           "value": 99,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-07",
+            "source": "Renault UK",
+            "by": "Nick"
+          }
         },
         "boot": {
           "value": 440,
@@ -153,8 +165,12 @@
         },
         "weight": {
           "value": 1636,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-07",
+            "source": "Renault UK",
+            "by": "Nick"
+          }
         }
       }
     },
