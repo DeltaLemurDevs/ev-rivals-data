@@ -94,16 +94,13 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "Business Car, CarGurus",
       "checked": "2026-11-01",
       "specs": {
         "price": {
           "value": 37995,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-07",
-            "source": "EV-Database",
-            "by": "Nick"
+            "on": "2026-11-07"
           }
         },
         "range": {
@@ -130,27 +127,21 @@
           "value": 300,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-07",
-            "source": "EV-database",
-            "by": "Nick"
+            "on": "2026-11-07"
           }
         },
         "zero62": {
           "value": 7.5,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-05",
-            "source": "AutoTrader.co.uk",
-            "by": "Nick"
+            "on": "2026-11-05"
           }
         },
         "top": {
           "value": 99,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-07",
-            "source": "Renault UK",
-            "by": "Nick"
+            "on": "2026-11-07"
           }
         },
         "boot": {
@@ -167,9 +158,7 @@
           "value": 1636,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-07",
-            "source": "Renault UK",
-            "by": "Nick"
+            "on": "2026-11-07"
           }
         }
       }
@@ -186,7 +175,6 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "BYD UK pricing, Aug 2025",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -258,7 +246,6 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "BYD UK pricing, Aug 2025",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -295,9 +282,7 @@
           "value": 7.9,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-05",
-            "source": "BYD.com",
-            "by": "Nick"
+            "on": "2026-11-05"
           }
         },
         "top": {
@@ -334,7 +319,6 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "Auto Express",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -406,7 +390,6 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "Carbuyer",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -478,7 +461,6 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "Fleet News, Motoring Research",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -550,7 +532,6 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "Kia UK, EV Database",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -622,7 +603,6 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "Kia UK, Fleet News",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -694,7 +674,6 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "Kia UK, DrivingElectric",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -766,7 +745,6 @@
       },
       "status": "discontinued",
       "priceBasis": "when-new",
-      "source": "EV Database #1177",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -838,7 +816,6 @@
       },
       "status": "discontinued",
       "priceBasis": "when-new",
-      "source": "EV Database #1138",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -910,7 +887,6 @@
       },
       "status": "discontinued",
       "priceBasis": "when-new",
-      "source": "EV Database #1139; Tesla 0–62",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -982,7 +958,6 @@
       },
       "status": "discontinued",
       "priceBasis": "when-new",
-      "source": "EV Database #1485",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1054,7 +1029,6 @@
       },
       "status": "discontinued",
       "priceBasis": "when-new",
-      "source": "EV Database #1555",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1126,7 +1100,6 @@
       },
       "status": "discontinued",
       "priceBasis": "when-new",
-      "source": "EV Database #1591",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1198,7 +1171,6 @@
       },
       "status": "discontinued",
       "priceBasis": "when-new",
-      "source": "EV Database #1620",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1270,7 +1242,6 @@
       },
       "status": "discontinued",
       "priceBasis": "when-new",
-      "source": "EV Database #1991",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1342,7 +1313,6 @@
       },
       "status": "discontinued",
       "priceBasis": "when-new",
-      "source": "EV Database #1992",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1414,7 +1384,6 @@
       },
       "status": "discontinued",
       "priceBasis": "when-new",
-      "source": "Tesla UK launch figures via Motoring Research, Apr 2024; EV Database",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1486,7 +1455,6 @@
       },
       "status": "discontinued",
       "priceBasis": "when-new",
-      "source": "EV Database #3034",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1558,7 +1526,6 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "EV Database #3403, Carwow, Nov 2026",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1630,7 +1597,6 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "EV Database #3404, Nov 2026",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1702,7 +1668,6 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "EV Database #3842, Nov 2026",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1774,7 +1739,6 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": "EV Database #3841, Tesla UK 0–62, Nov 2026",
       "checked": "2026-11-01",
       "specs": {
         "price": {
@@ -1846,25 +1810,20 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "source": null,
       "checked": "2026-11-05",
       "specs": {
         "price": {
           "value": 37000,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-05",
-            "source": "Nissan UK",
-            "by": "Nick"
+            "on": "2026-11-05"
           }
         },
         "range": {
           "value": 250,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-05",
-            "source": "Nissan UK",
-            "by": "Nick"
+            "on": "2026-11-05"
           }
         },
         "battery": {
