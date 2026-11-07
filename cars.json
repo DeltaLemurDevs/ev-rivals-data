@@ -157,9 +157,11 @@
       "checked": "2026-11-01",
       "specs": {
         "price": {
-          "value": 38495,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 37995,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-07"
+          }
         },
         "range": {
           "value": 280,
@@ -183,8 +185,10 @@
         },
         "torque": {
           "value": 300,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-07"
+          }
         },
         "zero62": {
           "value": 7.5,
@@ -195,8 +199,10 @@
         },
         "top": {
           "value": 99,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-07"
+          }
         },
         "boot": {
           "value": 440,
@@ -210,8 +216,10 @@
         },
         "weight": {
           "value": 1636,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-07"
+          }
         },
         "insuranceGroup": {
           "value": 25,
