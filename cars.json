@@ -460,8 +460,10 @@
         },
         "dc": {
           "value": 140,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-08"
+          }
         },
         "power": {
           "value": 203,
@@ -470,8 +472,10 @@
         },
         "torque": {
           "value": 250,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-08"
+          }
         },
         "zero62": {
           "value": 7.9,
@@ -505,8 +509,10 @@
         },
         "cd": {
           "value": 0.279,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-08"
+          }
         },
         "length": {
           "value": 4287,
