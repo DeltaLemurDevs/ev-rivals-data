@@ -499,8 +499,10 @@
         },
         "weight": {
           "value": 1685,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-08"
+          }
         },
         "insuranceGroup": {
           "value": 28,
