@@ -222,9 +222,11 @@
           }
         },
         "insuranceGroup": {
-          "value": 25,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 26,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-08"
+          }
         },
         "cd": {
           "value": 0.29,
