@@ -318,8 +318,8 @@
           "confirmation": null
         },
         "cd": {
-          "value": 0.29,
-          "status": "unconfirmed",
+          "value": null,
+          "status": "unknown",
           "confirmation": null
         },
         "length": {
@@ -411,8 +411,8 @@
           "confirmation": null
         },
         "cd": {
-          "value": 0.29,
-          "status": "unconfirmed",
+          "value": null,
+          "status": "unknown",
           "confirmation": null
         },
         "length": {
