@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -252,7 +252,7 @@
       "classification": {
         "segment": "B",
         "bodyType": "suv",
-        "status": "unconfirmed"
+        "status": "confirmed"
       },
       "priceBasis": "current",
       "checked": "2026-11-01",
@@ -343,7 +343,7 @@
       "classification": {
         "segment": "B",
         "bodyType": "suv",
-        "status": "unconfirmed"
+        "status": "confirmed"
       },
       "priceBasis": "current",
       "checked": "2026-11-01",
