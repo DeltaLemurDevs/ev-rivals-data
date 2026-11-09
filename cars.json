@@ -705,6 +705,12 @@
           "status": "confirmed",
           "confirmation": null
         }
+      },
+      "image": {
+        "file": "images/ev2-20261109113437.jpg",
+        "focus": 0.4980039894580841,
+        "focusWide": 0.5,
+        "licence": "own"
       }
     },
     {
