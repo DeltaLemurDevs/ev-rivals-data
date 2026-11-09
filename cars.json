@@ -2472,74 +2472,102 @@
       },
       "specs": {
         "price": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 23945,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "range": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 252,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "battery": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 52,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "dc": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 100,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "power": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 150,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "torque": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 245,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "zero62": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 7.9,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "top": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 93,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "boot": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 326,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "bootMax": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 1106,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "weight": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 1449,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "insuranceGroup": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 22,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "cd": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 0.32,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "length": {
-          "value": null,
-          "status": "unknown",
-          "confirmation": null
+          "value": 3922,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         }
       },
       "image": {
