@@ -626,7 +626,7 @@
       "id": "ev2",
       "make": "Kia",
       "model": "EV2",
-      "version": "42 kWh First Edition",
+      "version": "61 kWh Air",
       "modelYear": 2026,
       "onSale": {
         "from": 2026,
@@ -647,24 +647,32 @@
           "confirmation": null
         },
         "range": {
-          "value": 191,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 275,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "battery": {
-          "value": 42.2,
+          "value": 61,
           "status": "confirmed",
-          "confirmation": null
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "dc": {
-          "value": 115,
+          "value": 118,
           "status": "confirmed",
-          "confirmation": null
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "power": {
-          "value": 145,
+          "value": 133,
           "status": "confirmed",
-          "confirmation": null
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "torque": {
           "value": 250,
@@ -672,9 +680,11 @@
           "confirmation": null
         },
         "zero62": {
-          "value": 8.5,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 9.5,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "top": {
           "value": 100,
@@ -692,14 +702,18 @@
           "confirmation": null
         },
         "weight": {
-          "value": 1620,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 1630,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "insuranceGroup": {
-          "value": 21,
+          "value": 20,
           "status": "confirmed",
-          "confirmation": null
+          "confirmation": {
+            "on": "2026-11-09"
+          }
         },
         "cd": {
           "value": 0.29,
