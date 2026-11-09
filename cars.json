@@ -2451,6 +2451,97 @@
           "confirmation": null
         }
       }
+    },
+    {
+      "id": "5-25-52kwh-iconic",
+      "make": "Renault",
+      "model": "5",
+      "version": "52kWh Iconic",
+      "modelYear": 2025,
+      "onSale": {
+        "from": 2026,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "checked": "2026-11-09",
+      "classification": {
+        "segment": "B",
+        "bodyType": "hatchback",
+        "status": "unconfirmed"
+      },
+      "specs": {
+        "price": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "range": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "battery": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "dc": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "power": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "torque": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "top": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "boot": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "weight": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "insuranceGroup": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "cd": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "length": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        }
+      }
     }
   ]
 }
