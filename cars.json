@@ -543,7 +543,7 @@
       "classification": {
         "segment": "B",
         "bodyType": "suv",
-        "status": "unconfirmed"
+        "status": "confirmed"
       },
       "priceBasis": "current",
       "checked": "2026-11-01",
