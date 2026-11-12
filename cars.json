@@ -2369,6 +2369,121 @@
         "focusWide": 0.5,
         "licence": "own"
       }
+    },
+    {
+      "id": "raval-v1-52",
+      "make": "Cupra",
+      "model": "Raval",
+      "version": "V1 52kWh",
+      "modelYear": 2026,
+      "onSale": {
+        "from": 2026,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "checked": "2026-11-12",
+      "classification": {
+        "segment": "B",
+        "bodyType": "hatchback",
+        "status": "confirmed"
+      },
+      "specs": {
+        "price": {
+          "value": 28495,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "range": {
+          "value": 275,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "battery": {
+          "value": 52,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "dc": {
+          "value": 105,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "power": {
+          "value": 208,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "torque": {
+          "value": 290,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "zero62": {
+          "value": 7.1,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "top": {
+          "value": 99,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "boot": {
+          "value": 441,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "bootMax": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1540,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "insuranceGroup": {
+          "value": 20,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "cd": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4046,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        }
+      }
     }
   ]
 }
