@@ -2374,7 +2374,7 @@
       "id": "raval-v1-52",
       "make": "Cupra",
       "model": "Raval",
-      "version": "V1 52kWh",
+      "version": "V1",
       "modelYear": 2026,
       "onSale": {
         "from": 2026,
@@ -2489,6 +2489,123 @@
         "focus": 0.5,
         "focusWide": 0.5,
         "licence": "own"
+      }
+    },
+    {
+      "id": "tavascan-24-v1",
+      "make": "Cupra",
+      "model": "Tavascan",
+      "version": "V1",
+      "modelYear": 2024,
+      "onSale": {
+        "from": 2024,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "checked": "2026-11-12",
+      "classification": {
+        "segment": "C",
+        "bodyType": "suv",
+        "status": "confirmed"
+      },
+      "specs": {
+        "price": {
+          "value": 45750,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "range": {
+          "value": 345,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "battery": {
+          "value": 77,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "dc": {
+          "value": 135,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "power": {
+          "value": 282,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "torque": {
+          "value": 545,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "zero62": {
+          "value": 6.8,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "top": {
+          "value": 112,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "boot": {
+          "value": 540,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "bootMax": {
+          "value": null,
+          "status": "unknown",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 2177,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "insuranceGroup": {
+          "value": 34,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "cd": {
+          "value": 0.26,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        },
+        "length": {
+          "value": 4644,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
+        }
       }
     }
   ]
