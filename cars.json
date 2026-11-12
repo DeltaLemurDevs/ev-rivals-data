@@ -769,17 +769,19 @@
       },
       "status": "current",
       "classification": {
-        "segment": "B",
+        "segment": "C",
         "bodyType": "suv",
-        "status": "unconfirmed"
+        "status": "confirmed"
       },
       "priceBasis": "current",
       "checked": "2026-11-01",
       "specs": {
         "price": {
-          "value": 35215,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 34555,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
         },
         "range": {
           "value": 375,
