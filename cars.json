@@ -2187,8 +2187,10 @@
         },
         "power": {
           "value": 217,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
         },
         "torque": {
           "value": 300,
