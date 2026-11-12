@@ -861,9 +861,9 @@
       "make": "Kia",
       "model": "EV6",
       "version": "84 kWh Air RWD",
-      "modelYear": 2024,
+      "modelYear": 2025,
       "onSale": {
-        "from": 2024,
+        "from": 2025,
         "to": null
       },
       "status": "current",
@@ -873,7 +873,7 @@
         "status": "confirmed"
       },
       "priceBasis": "current",
-      "checked": "2026-11-01",
+      "checked": "2026-11-12",
       "specs": {
         "price": {
           "value": 45635,
