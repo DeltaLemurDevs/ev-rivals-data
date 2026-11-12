@@ -870,7 +870,7 @@
       "classification": {
         "segment": "D",
         "bodyType": "suv",
-        "status": "unconfirmed"
+        "status": "confirmed"
       },
       "priceBasis": "current",
       "checked": "2026-11-01",
@@ -891,9 +891,11 @@
           "confirmation": null
         },
         "dc": {
-          "value": 258,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 350,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
         },
         "power": {
           "value": 225,
@@ -906,9 +908,11 @@
           "confirmation": null
         },
         "zero62": {
-          "value": 7.3,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 7.7,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
         },
         "top": {
           "value": 115,
