@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -846,6 +846,12 @@
           "status": "confirmed",
           "confirmation": null
         }
+      },
+      "image": {
+        "file": "images/ev3-20261112031505.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
       }
     },
     {
