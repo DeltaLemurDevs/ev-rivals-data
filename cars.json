@@ -978,8 +978,10 @@
       "specs": {
         "price": {
           "value": 64995,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-12"
+          }
         },
         "range": {
           "value": 349,
