@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -2612,6 +2612,121 @@
         "focus": 0.5,
         "focusWide": 0.5,
         "licence": "own"
+      }
+    },
+    {
+      "id": "avenger-23-e-summit",
+      "make": "Jeep",
+      "model": "Avenger",
+      "version": "e-Summit",
+      "modelYear": 2023,
+      "onSale": {
+        "from": 2023,
+        "to": 2026
+      },
+      "status": "discontinued",
+      "priceBasis": "when-new",
+      "checked": "2026-11-13",
+      "classification": {
+        "segment": "B",
+        "bodyType": "suv",
+        "status": "confirmed"
+      },
+      "specs": {
+        "price": {
+          "value": 30249,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
+        },
+        "range": {
+          "value": 244,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
+        },
+        "battery": {
+          "value": 54,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
+        },
+        "dc": {
+          "value": 100,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
+        },
+        "power": {
+          "value": 154,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
+        },
+        "torque": {
+          "value": 260,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
+        },
+        "zero62": {
+          "value": 9.6,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
+        },
+        "top": {
+          "value": 93,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
+        },
+        "boot": {
+          "value": 355,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
+        },
+        "bootMax": {
+          "value": 1053,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1536,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
+        },
+        "insuranceGroup": {
+          "value": 25,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
+        },
+        "cd": {
+          "value": 0.33,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4084,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
+        }
       }
     }
   ]
