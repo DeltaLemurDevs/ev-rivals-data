@@ -2697,9 +2697,11 @@
           }
         },
         "bootMax": {
-          "value": 1053,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 1252,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-13"
+          }
         },
         "weight": {
           "value": 1536,
