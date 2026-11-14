@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -2261,7 +2261,7 @@
       "classification": {
         "segment": "B",
         "bodyType": "hatchback",
-        "status": "unconfirmed"
+        "status": "confirmed"
       },
       "specs": {
         "price": {
