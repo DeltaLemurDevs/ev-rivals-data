@@ -244,6 +244,12 @@
         "appleCarPlay": true,
         "androidAuto": true,
         "adaptiveCruiseControl": true
+      },
+      "image": {
+        "file": "images/megane-20261115193736.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
       }
     },
     {
