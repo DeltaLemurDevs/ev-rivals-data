@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -341,6 +341,12 @@
         "focus": 0.5,
         "focusWide": 0.5,
         "licence": "own"
+      },
+      "extras": {
+        "vehicleToLoad": true,
+        "appleCarPlay": true,
+        "androidAuto": true,
+        "adaptiveCruiseControl": true
       }
     },
     {
