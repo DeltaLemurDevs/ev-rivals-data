@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -2743,12 +2743,6 @@
             "on": "2026-11-13"
           }
         }
-      },
-      "image": {
-        "file": "images/avenger-23-e-summit-20261113154153.jpg",
-        "focus": 0.5,
-        "focusWide": 0.5,
-        "licence": "own"
       }
     }
   ]
