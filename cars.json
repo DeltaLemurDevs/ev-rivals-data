@@ -552,6 +552,13 @@
           "status": "confirmed",
           "confirmation": null
         }
+      },
+      "image": {
+        "file": "images/mg4-20261117221107.jpg",
+        "fileDark": "images/mg4-20261117221107-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
       }
     },
     {
