@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -244,13 +244,6 @@
         "appleCarPlay": true,
         "androidAuto": true,
         "adaptiveCruiseControl": true
-      },
-      "image": {
-        "file": "images/megane-20261115223549.jpg",
-        "fileDark": "images/megane-20261115223549-dark.jpg",
-        "focus": 0.5,
-        "focusWide": 0.5,
-        "licence": "own"
       }
     },
     {
