@@ -2867,6 +2867,13 @@
             "on": "2026-11-18"
           }
         }
+      },
+      "image": {
+        "file": "images/megane-e-tech-26-techno-20261118130436.jpg",
+        "fileDark": "images/megane-e-tech-26-techno-20261118130436-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
       }
     }
   ]
