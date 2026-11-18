@@ -2753,6 +2753,128 @@
         "focusWide": 0.5,
         "licence": "own"
       }
+    },
+    {
+      "id": "megane-e-tech-26-techno",
+      "make": "Renault",
+      "model": "Megane E-Tech",
+      "version": "Techno",
+      "modelYear": 2026,
+      "onSale": {
+        "from": 2026,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "checked": "2026-11-18",
+      "classification": {
+        "segment": "C",
+        "bodyType": "hatchback",
+        "status": "confirmed"
+      },
+      "extras": {
+        "vehicleToLoad": true,
+        "appleCarPlay": true,
+        "androidAuto": true,
+        "adaptiveCruiseControl": true
+      },
+      "specs": {
+        "price": {
+          "value": 28445,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-18"
+          }
+        },
+        "range": {
+          "value": 306,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-18"
+          }
+        },
+        "battery": {
+          "value": 67,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-18"
+          }
+        },
+        "dc": {
+          "value": 165,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-18"
+          }
+        },
+        "power": {
+          "value": 220,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-18"
+          }
+        },
+        "torque": {
+          "value": 300,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "zero62": {
+          "value": 7.6,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-18"
+          }
+        },
+        "top": {
+          "value": 99,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-18"
+          }
+        },
+        "boot": {
+          "value": 440,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "bootMax": {
+          "value": 1332,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "weight": {
+          "value": 1814,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-18"
+          }
+        },
+        "insuranceGroup": {
+          "value": 26,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "cd": {
+          "value": 0.29,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4199,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-18"
+          }
+        }
+      },
+      "image": {
+        "file": "images/megane-20261118094806.jpg",
+        "fileDark": "images/megane-20261118094806-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
+      }
     }
   ]
 }
