@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "lastRun": "2026-11-19T18:38:20Z",
+  "checked": {
+    "cardata": "2026-11-19T18:38:20Z"
+  },
+  "lastRunCars": [
+    "m3-26prwd",
+    "ariya-26-63",
+    "m3-26pawd"
+  ],
+  "suggestions": [
+    {
+      "id": "2026-11-19-ariya-26-63-insurancegroup",
+      "createdAt": "2026-11-19T18:38:20Z",
+      "carId": "ariya-26-63",
+      "title": "Nissan Ariya 63kWh Engage+: insurance group not confirmed",
+      "message": "Couldn't find a trustworthy source naming the insurance group for the 2026 Ariya 63kWh Engage+, so the stored 31 is still unverified. Price (£37,000) and range (250 miles) checked out fine. #cardata",
+      "confidence": "low",
+      "sources": [
+        "https://www.nissan.co.uk/vehicles/new-vehicles/ariya.html",
+        "https://www.carwow.co.uk/nissan/ariya"
+      ],
+      "changes": null
+    }
+  ]
+}
