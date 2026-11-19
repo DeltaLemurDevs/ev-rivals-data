@@ -2528,13 +2528,17 @@
         },
         "battery": {
           "value": 63,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-19"
+          }
         },
         "dc": {
           "value": 130,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-19"
+          }
         },
         "power": {
           "value": 217,
@@ -2545,38 +2549,52 @@
         },
         "torque": {
           "value": 300,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-19"
+          }
         },
         "zero62": {
           "value": 7.5,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-19"
+          }
         },
         "top": {
-          "value": 99,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 100,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-19"
+          }
         },
         "boot": {
           "value": 466,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-19"
+          }
         },
         "bootMax": {
           "value": 1350,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-19"
+          }
         },
         "weight": {
-          "value": 1993,
-          "status": "unconfirmed",
-          "confirmation": null
+          "value": 1918,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-19"
+          }
         },
         "insuranceGroup": {
           "value": 31,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-19"
+          }
         },
         "cd": {
           "value": 0.297,
@@ -2594,6 +2612,12 @@
         "focus": 0.5,
         "focusWide": 0.5,
         "licence": "own"
+      },
+      "extras": {
+        "vehicleToLoad": true,
+        "appleCarPlay": true,
+        "androidAuto": true,
+        "adaptiveCruiseControl": true
       }
     },
     {
