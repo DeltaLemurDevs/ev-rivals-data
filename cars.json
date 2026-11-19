@@ -2612,6 +2612,13 @@
         "appleCarPlay": true,
         "androidAuto": true,
         "adaptiveCruiseControl": true
+      },
+      "image": {
+        "file": "images/ariya-26-63-20261119221917.jpg",
+        "fileDark": "images/ariya-26-63-20261119221917-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
       }
     },
     {
