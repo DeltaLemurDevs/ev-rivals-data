@@ -1831,6 +1831,13 @@
           "status": "confirmed",
           "confirmation": null
         }
+      },
+      "image": {
+        "file": "images/m3-24lr-20261119112113.jpg",
+        "fileDark": "images/m3-24lr-20261119112113-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
       }
     },
     {
