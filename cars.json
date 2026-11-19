@@ -3039,6 +3039,13 @@
             "on": "2026-11-12"
           }
         }
+      },
+      "image": {
+        "file": "images/tavascan-24-v1-20261119230509.jpg",
+        "fileDark": "images/tavascan-24-v1-20261119230509-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5019959807395935,
+        "licence": "own"
       }
     },
     {
