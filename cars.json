@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -245,6 +245,21 @@
         "androidAuto": true,
         "adaptiveCruiseControl": true
       },
+      "ncap": {
+        "rated": true,
+        "protocol": 2022,
+        "stars": 5,
+        "scores": {
+          "adult": 85,
+          "child": 88,
+          "vru": 65,
+          "assist": 79
+        },
+        "published": "2022-03-02",
+        "source": "https://www.euroncap.com/en/results/renault/megane+e-tech/45241",
+        "checked": "2026-11-18",
+        "status": "confirmed"
+      },
       "image": {
         "file": "images/megane-20261118094806.jpg",
         "fileDark": "images/megane-20261118094806-dark.jpg",
@@ -354,6 +369,11 @@
         "appleCarPlay": true,
         "androidAuto": true,
         "adaptiveCruiseControl": true
+      },
+      "ncap": {
+        "rated": false,
+        "checked": "2026-11-18",
+        "note": "No Euro NCAP rating found on euroncap.com (only a Green NCAP result)."
       }
     },
     {
@@ -371,6 +391,11 @@
         "segment": "B",
         "bodyType": "suv",
         "status": "confirmed"
+      },
+      "ncap": {
+        "rated": false,
+        "checked": "2026-11-18",
+        "note": "No Euro NCAP rating found on euroncap.com (only a Green NCAP result)."
       },
       "priceBasis": "current",
       "checked": "2026-11-01",
@@ -469,6 +494,21 @@
       "classification": {
         "segment": "C",
         "bodyType": "hatchback",
+        "status": "confirmed"
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2022,
+        "stars": 5,
+        "scores": {
+          "adult": 83,
+          "child": 80,
+          "vru": 75,
+          "assist": 78
+        },
+        "published": "2022-12-07",
+        "source": "https://www.euroncap.com/en/results/mg/4+electric/48646",
+        "checked": "2026-11-18",
         "status": "confirmed"
       },
       "priceBasis": "current",
@@ -577,6 +617,23 @@
         "bodyType": "suv",
         "status": "confirmed"
       },
+      "ncap": {
+        "rated": true,
+        "protocol": 2019,
+        "stars": 5,
+        "scores": {
+          "adult": 90,
+          "child": 85,
+          "vru": 64,
+          "assist": 70
+        },
+        "published": "2019-12-18",
+        "expired": "2026-01-01",
+        "source": "https://www.euroncap.com/assessments/mg/zs-ev/0797/",
+        "checked": "2026-11-18",
+        "status": "unconfirmed",
+        "note": "Tested in 2019 on the original ZS EV. The page does not list the 2021 73 kWh Long Range version. Euro NCAP marks it expired from 1 Jan 2026."
+      },
       "priceBasis": "current",
       "checked": "2026-11-01",
       "specs": {
@@ -675,6 +732,21 @@
       "classification": {
         "segment": "B",
         "bodyType": "suv",
+        "status": "confirmed"
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2026,
+        "stars": 5,
+        "scores": {
+          "safeDriving": 74,
+          "crashAvoidance": 66,
+          "crashProtection": 86,
+          "postCrash": 89
+        },
+        "published": "2026-10-12",
+        "source": "https://www.euroncap.com/assessments/kia/ev2/1265/",
+        "checked": "2026-11-18",
         "status": "confirmed"
       },
       "priceBasis": "current",
@@ -788,6 +860,25 @@
         "bodyType": "suv",
         "status": "confirmed"
       },
+      "ncap": {
+        "rated": true,
+        "protocol": 2025,
+        "stars": 4,
+        "scores": {
+          "adult": 83,
+          "child": 84,
+          "vru": 77,
+          "assist": 67
+        },
+        "pack": {
+          "stars": 5
+        },
+        "published": "2025-05-21",
+        "source": "https://www.euroncap.com/assessments/kia/ev3/1111/",
+        "checked": "2026-11-18",
+        "status": "unconfirmed",
+        "note": "The page shows one set of percentages and does not say whether they are for the standard or the safety-pack rating."
+      },
       "priceBasis": "current",
       "checked": "2026-11-01",
       "specs": {
@@ -886,6 +977,22 @@
         "segment": "D",
         "bodyType": "suv",
         "status": "confirmed"
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2022,
+        "stars": 5,
+        "scores": {
+          "adult": 90,
+          "child": 86,
+          "vru": 64,
+          "assist": 87
+        },
+        "published": "2022-05-25",
+        "source": "https://www.euroncap.com/assessments/kia/ev6/0938/",
+        "checked": "2026-11-18",
+        "status": "unconfirmed",
+        "note": "The 2022 rating lists Standard and Long Range RWD and AWD. The 2025 84 kWh car is not named."
       },
       "priceBasis": "current",
       "checked": "2026-11-12",
@@ -988,6 +1095,21 @@
         "bodyType": "suv",
         "status": "confirmed"
       },
+      "ncap": {
+        "rated": true,
+        "protocol": 2023,
+        "stars": 5,
+        "scores": {
+          "adult": 84,
+          "child": 88,
+          "vru": 76,
+          "assist": 83
+        },
+        "published": "2023-12-06",
+        "source": "https://www.euroncap.com/assessments/kia/ev9/1052/",
+        "checked": "2026-11-18",
+        "status": "confirmed"
+      },
       "priceBasis": "current",
       "checked": "2026-11-01",
       "specs": {
@@ -1081,6 +1203,23 @@
         "bodyType": "saloon",
         "status": "confirmed"
       },
+      "ncap": {
+        "rated": true,
+        "protocol": 2019,
+        "stars": 5,
+        "scores": {
+          "adult": 96,
+          "child": 86,
+          "vru": 74,
+          "assist": 94
+        },
+        "published": "2019-07-03",
+        "expired": "2026-01-01",
+        "source": "https://www.euroncap.com/assessments/tesla/model-3/0766/",
+        "checked": "2026-11-18",
+        "status": "confirmed",
+        "note": "Euro NCAP marks this 2019 rating as expired from 1 Jan 2026. Covers RWD, AWD and Performance."
+      },
       "priceBasis": "when-new",
       "checked": "2026-11-01",
       "specs": {
@@ -1171,6 +1310,23 @@
         "segment": "D",
         "bodyType": "saloon",
         "status": "confirmed"
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2019,
+        "stars": 5,
+        "scores": {
+          "adult": 96,
+          "child": 86,
+          "vru": 74,
+          "assist": 94
+        },
+        "published": "2019-07-03",
+        "expired": "2026-01-01",
+        "source": "https://www.euroncap.com/assessments/tesla/model-3/0766/",
+        "checked": "2026-11-18",
+        "status": "confirmed",
+        "note": "Euro NCAP marks this 2019 rating as expired from 1 Jan 2026. Covers RWD, AWD and Performance."
       },
       "priceBasis": "when-new",
       "checked": "2026-11-01",
@@ -1263,6 +1419,23 @@
         "bodyType": "saloon",
         "status": "confirmed"
       },
+      "ncap": {
+        "rated": true,
+        "protocol": 2019,
+        "stars": 5,
+        "scores": {
+          "adult": 96,
+          "child": 86,
+          "vru": 74,
+          "assist": 94
+        },
+        "published": "2019-07-03",
+        "expired": "2026-01-01",
+        "source": "https://www.euroncap.com/assessments/tesla/model-3/0766/",
+        "checked": "2026-11-18",
+        "status": "confirmed",
+        "note": "Euro NCAP marks this 2019 rating as expired from 1 Jan 2026. Covers RWD, AWD and Performance."
+      },
       "priceBasis": "when-new",
       "checked": "2026-11-01",
       "specs": {
@@ -1353,6 +1526,23 @@
         "segment": "D",
         "bodyType": "saloon",
         "status": "confirmed"
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2019,
+        "stars": 5,
+        "scores": {
+          "adult": 96,
+          "child": 86,
+          "vru": 74,
+          "assist": 94
+        },
+        "published": "2019-07-03",
+        "expired": "2026-01-01",
+        "source": "https://www.euroncap.com/assessments/tesla/model-3/0766/",
+        "checked": "2026-11-18",
+        "status": "confirmed",
+        "note": "Euro NCAP marks this 2019 rating as expired from 1 Jan 2026. Covers RWD, AWD and Performance."
       },
       "priceBasis": "when-new",
       "checked": "2026-11-01",
@@ -1445,6 +1635,22 @@
         "bodyType": "saloon",
         "status": "confirmed"
       },
+      "ncap": {
+        "rated": true,
+        "protocol": 2025,
+        "stars": 5,
+        "scores": {
+          "adult": 90,
+          "child": 93,
+          "vru": 89,
+          "assist": 87
+        },
+        "published": "2025-05-21",
+        "source": "https://www.euroncap.com/assessments/tesla/model+3/1110/",
+        "checked": "2026-11-18",
+        "status": "unconfirmed",
+        "note": "Built before the May 2025 test. The page gives no start date."
+      },
       "priceBasis": "when-new",
       "checked": "2026-11-01",
       "specs": {
@@ -1535,6 +1741,22 @@
         "segment": "D",
         "bodyType": "saloon",
         "status": "confirmed"
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2025,
+        "stars": 5,
+        "scores": {
+          "adult": 90,
+          "child": 93,
+          "vru": 89,
+          "assist": 87
+        },
+        "published": "2025-05-21",
+        "source": "https://www.euroncap.com/assessments/tesla/model+3/1110/",
+        "checked": "2026-11-18",
+        "status": "unconfirmed",
+        "note": "Built before the May 2025 test. The page gives no start date."
       },
       "priceBasis": "when-new",
       "checked": "2026-11-01",
@@ -1627,6 +1849,22 @@
         "bodyType": "saloon",
         "status": "confirmed"
       },
+      "ncap": {
+        "rated": true,
+        "protocol": 2025,
+        "stars": 5,
+        "scores": {
+          "adult": 90,
+          "child": 93,
+          "vru": 89,
+          "assist": 87
+        },
+        "published": "2025-05-21",
+        "source": "https://www.euroncap.com/assessments/tesla/model+3/1110/",
+        "checked": "2026-11-18",
+        "status": "unconfirmed",
+        "note": "Built before the May 2025 test. The page gives no start date."
+      },
       "priceBasis": "when-new",
       "checked": "2026-11-01",
       "specs": {
@@ -1716,6 +1954,21 @@
       "classification": {
         "segment": "D",
         "bodyType": "saloon",
+        "status": "confirmed"
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2025,
+        "stars": 5,
+        "scores": {
+          "adult": 90,
+          "child": 93,
+          "vru": 89,
+          "assist": 87
+        },
+        "published": "2025-05-21",
+        "source": "https://www.euroncap.com/assessments/tesla/model+3/1110/",
+        "checked": "2026-11-18",
         "status": "confirmed"
       },
       "priceBasis": "when-new",
@@ -1809,6 +2062,22 @@
         "bodyType": "saloon",
         "status": "confirmed"
       },
+      "ncap": {
+        "rated": true,
+        "protocol": 2025,
+        "stars": 5,
+        "scores": {
+          "adult": 90,
+          "child": 93,
+          "vru": 89,
+          "assist": 87
+        },
+        "published": "2025-05-21",
+        "source": "https://www.euroncap.com/assessments/tesla/model+3/1110/",
+        "checked": "2026-11-18",
+        "status": "unconfirmed",
+        "note": "The Standard trim is not listed in the rating's variant table."
+      },
       "priceBasis": "current",
       "checked": "2026-11-01",
       "specs": {
@@ -1898,6 +2167,21 @@
       "classification": {
         "segment": "D",
         "bodyType": "saloon",
+        "status": "confirmed"
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2025,
+        "stars": 5,
+        "scores": {
+          "adult": 90,
+          "child": 93,
+          "vru": 89,
+          "assist": 87
+        },
+        "published": "2025-05-21",
+        "source": "https://www.euroncap.com/assessments/tesla/model+3/1110/",
+        "checked": "2026-11-18",
         "status": "confirmed"
       },
       "priceBasis": "current",
@@ -1991,6 +2275,21 @@
         "bodyType": "saloon",
         "status": "confirmed"
       },
+      "ncap": {
+        "rated": true,
+        "protocol": 2025,
+        "stars": 5,
+        "scores": {
+          "adult": 90,
+          "child": 93,
+          "vru": 89,
+          "assist": 87
+        },
+        "published": "2025-05-21",
+        "source": "https://www.euroncap.com/assessments/tesla/model+3/1110/",
+        "checked": "2026-11-18",
+        "status": "confirmed"
+      },
       "priceBasis": "current",
       "checked": "2026-11-01",
       "specs": {
@@ -2082,6 +2381,21 @@
         "bodyType": "saloon",
         "status": "confirmed"
       },
+      "ncap": {
+        "rated": true,
+        "protocol": 2025,
+        "stars": 5,
+        "scores": {
+          "adult": 90,
+          "child": 93,
+          "vru": 89,
+          "assist": 87
+        },
+        "published": "2025-05-21",
+        "source": "https://www.euroncap.com/assessments/tesla/model+3/1110/",
+        "checked": "2026-11-18",
+        "status": "confirmed"
+      },
       "priceBasis": "current",
       "checked": "2026-11-01",
       "specs": {
@@ -2171,6 +2485,21 @@
       "classification": {
         "segment": "C",
         "bodyType": "suv",
+        "status": "confirmed"
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2022,
+        "stars": 5,
+        "scores": {
+          "adult": 86,
+          "child": 89,
+          "vru": 74,
+          "assist": 93
+        },
+        "published": "2022-11-16",
+        "source": "https://www.euroncap.com/assessments/nissan/ariya/0928/",
+        "checked": "2026-11-18",
         "status": "confirmed"
       },
       "priceBasis": "current",
@@ -2276,6 +2605,21 @@
       "classification": {
         "segment": "B",
         "bodyType": "hatchback",
+        "status": "confirmed"
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2024,
+        "stars": 4,
+        "scores": {
+          "adult": 80,
+          "child": 80,
+          "vru": 76,
+          "assist": 68
+        },
+        "published": "2024-12-04",
+        "source": "https://www.euroncap.com/assessments/renault/5/1080/",
+        "checked": "2026-11-18",
         "status": "confirmed"
       },
       "specs": {
@@ -2404,6 +2748,30 @@
         "bodyType": "hatchback",
         "status": "confirmed"
       },
+      "ncap": {
+        "rated": true,
+        "protocol": 2026,
+        "stars": 4,
+        "scores": {
+          "safeDriving": 58,
+          "crashAvoidance": 66,
+          "crashProtection": 91,
+          "postCrash": 95
+        },
+        "pack": {
+          "stars": 5,
+          "scores": {
+            "safeDriving": 72,
+            "crashAvoidance": 77,
+            "crashProtection": 91,
+            "postCrash": 95
+          }
+        },
+        "published": "2026-09-02",
+        "source": "https://www.euroncap.com/assessments/cupra/raval/1242/",
+        "checked": "2026-11-18",
+        "status": "confirmed"
+      },
       "specs": {
         "price": {
           "value": 28495,
@@ -2524,6 +2892,22 @@
         "segment": "C",
         "bodyType": "suv",
         "status": "confirmed"
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2024,
+        "stars": 5,
+        "scores": {
+          "adult": 89,
+          "child": 86,
+          "vru": 80,
+          "assist": 79
+        },
+        "published": "2024-11-13",
+        "source": "https://www.euroncap.com/assessments/cupra/tavascan/1099/",
+        "checked": "2026-11-18",
+        "status": "confirmed",
+        "note": "Applies to cars built with the active bonnet."
       },
       "specs": {
         "price": {
@@ -2647,6 +3031,22 @@
         "segment": "B",
         "bodyType": "suv",
         "status": "confirmed"
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2024,
+        "stars": 3,
+        "scores": {
+          "adult": 79,
+          "child": 70,
+          "vru": 59,
+          "assist": 53
+        },
+        "published": "2024-09-11",
+        "source": "https://www.euroncap.com/en/results/jeep/avenger/52562",
+        "checked": "2026-11-18",
+        "status": "unconfirmed",
+        "note": "The page does not say the electric version is covered."
       },
       "specs": {
         "price": {
@@ -2777,6 +3177,22 @@
         "appleCarPlay": true,
         "androidAuto": true,
         "adaptiveCruiseControl": true
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2022,
+        "stars": 5,
+        "scores": {
+          "adult": 85,
+          "child": 88,
+          "vru": 65,
+          "assist": 79
+        },
+        "published": "2022-03-02",
+        "source": "https://www.euroncap.com/en/results/renault/megane+e-tech/45241",
+        "checked": "2026-11-18",
+        "status": "unconfirmed",
+        "note": "2026 car. The rating was published in 2022 for the EV60 Techno."
       },
       "specs": {
         "price": {
