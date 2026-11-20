@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -398,12 +398,16 @@
         "note": "No Euro NCAP rating found on euroncap.com (only a Green NCAP result)."
       },
       "priceBasis": "current",
-      "checked": "2026-11-01",
+      "checked": "2026-11-20",
       "specs": {
         "price": {
-          "value": 34950,
+          "value": 34965,
           "status": "confirmed",
-          "confirmation": null
+          "confirmation": {
+            "on": "2026-11-20",
+            "source": "autoexpress.co.uk",
+            "by": "AI Monitor"
+          }
         },
         "range": {
           "value": 261,
