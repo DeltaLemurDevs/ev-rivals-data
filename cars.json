@@ -145,16 +145,16 @@
       "modelYear": 2022,
       "onSale": {
         "from": 2022,
-        "to": null
+        "to": 2026
       },
-      "status": "current",
+      "status": "discontinued",
       "classification": {
         "segment": "C",
         "bodyType": "hatchback",
         "status": "confirmed"
       },
       "priceBasis": "current",
-      "checked": "2026-11-15",
+      "checked": "2026-11-20",
       "specs": {
         "price": {
           "value": 37995,
