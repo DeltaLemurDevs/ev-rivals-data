@@ -2637,7 +2637,7 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "checked": "2026-11-09",
+      "checked": "2026-11-20",
       "classification": {
         "segment": "B",
         "bodyType": "hatchback",
@@ -2660,10 +2660,12 @@
       },
       "specs": {
         "price": {
-          "value": 23945,
+          "value": 27695,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-09"
+            "on": "2026-11-20",
+            "source": "evpowered.co.uk",
+            "by": "AI Monitor"
           }
         },
         "range": {
