@@ -136,6 +136,29 @@
     "coupe",
     "convertible"
   ],
+  "brandColours": {
+    "Audi": "#E21C2A",
+    "BMW": "#0066B3",
+    "BYD": "#D71920",
+    "Citroen": "#F28C28",
+    "Cupra": "#B06D47",
+    "Ford": "#1351A8",
+    "Hyundai": "#00AAD2",
+    "Jeep": "#708238",
+    "Kia": "#BB162B",
+    "Mercedes-Benz": "#A7ADB4",
+    "MG": "#007BFF",
+    "MINI": "#006B4F",
+    "Nissan": "#C3002F",
+    "Peugeot": "#B4D900",
+    "Polestar": "#C9A86A",
+    "Porsche": "#FFD000",
+    "Renault": "#FFCC00",
+    "Skoda": "#008B65",
+    "Tesla": "#E82127",
+    "Volkswagen": "#0057B8",
+    "Volvo": "#5B91B5"
+  },
   "cars": [
     {
       "id": "megane",
