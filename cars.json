@@ -404,9 +404,7 @@
           "value": 34965,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-20",
-            "source": "autoexpress.co.uk",
-            "by": "AI Monitor"
+            "on": "2026-11-20"
           }
         },
         "range": {
@@ -2663,9 +2661,7 @@
           "value": 27695,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-20",
-            "source": "evpowered.co.uk",
-            "by": "AI Monitor"
+            "on": "2026-11-20"
           }
         },
         "range": {
