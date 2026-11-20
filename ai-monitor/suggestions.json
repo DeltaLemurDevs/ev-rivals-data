@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-19T18:38:20Z",
+  "lastRun": "2026-11-20T06:52:54Z",
   "checked": {
-    "cardata": "2026-11-19T18:38:20Z"
+    "cardata": "2026-11-20T06:52:54Z"
   },
   "lastRunCars": [
-    "m3-26prwd",
-    "ariya-26-63",
-    "m3-26pawd"
+    "atto2c",
+    "5-25-52kwh-iconic",
+    "megane"
   ],
   "suggestions": [
     {
@@ -20,6 +20,92 @@
       "sources": [
         "https://www.nissan.co.uk/vehicles/new-vehicles/ariya.html",
         "https://www.carwow.co.uk/nissan/ariya"
+      ],
+      "changes": null
+    },
+    {
+      "id": "2026-11-20-megane-status",
+      "createdAt": "2026-11-20T06:52:54Z",
+      "carId": "megane",
+      "title": "Renault Megane E-Tech EV60 Techno: no longer sold new",
+      "message": "Status current → discontinued, on sale until 2026. The updated Megane (UK orders from 1 Oct 2026) swaps the 60 kWh battery for a 67 kWh one (306 miles, Techno from £31,995 before the grant), so the EV60 Techno is gone; you may want to add the new version as a separate car. #cardata",
+      "confidence": "high",
+      "sources": [
+        "https://www.electrive.com/2026/10/03/renault-opens-uk-orders-for-updated-scenic-and-megane-e-tech/",
+        "https://www.electrifying.com/blog/article/new-renault-megane-electric-car-grant"
+      ],
+      "changes": [
+        {
+          "path": "status",
+          "from": "current",
+          "to": "discontinued"
+        },
+        {
+          "path": "onSale.to",
+          "from": null,
+          "to": 2026
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-5-25-52kwh-iconic-price",
+      "createdAt": "2026-11-20T06:52:54Z",
+      "carId": "5-25-52kwh-iconic",
+      "title": "Renault 5 52kWh Comfort / Iconic: price is after the grant",
+      "message": "Price £23,945 → £27,695. £23,945 is the techno+ 52kWh price after the £3,750 Electric Car Grant; the list price (RRP) before the grant is £27,695. #cardata",
+      "confidence": "medium",
+      "sources": [
+        "https://evpowered.co.uk/news/big-battery-renault-4-5-and-alpine-a290-now-available-with-3750-electric-car-grant/",
+        "https://www.electrifying.com/blog/article/renault-5-gets-full-3-750-electric-car-grant"
+      ],
+      "changes": [
+        {
+          "path": "specs.price.value",
+          "from": 23945,
+          "to": 27695
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-5-25-52kwh-iconic-update",
+      "createdAt": "2026-11-20T06:52:54Z",
+      "carId": "5-25-52kwh-iconic",
+      "title": "Renault 5 52kWh: updated model on order",
+      "message": "An updated Renault 5 went on UK order in Sept 2026; its 52kWh version is rated up to 267 miles WLTP (stored car: 252). Worth checking on renault.co.uk whether the 2025 version is still sold or should be replaced by a new entry. #cardata",
+      "confidence": "low",
+      "sources": [
+        "https://www.electrive.com/2026/09/24/uk-orders-open-for-updated-renault-5-e-tech/"
+      ],
+      "changes": null
+    },
+    {
+      "id": "2026-11-20-atto2c-price",
+      "createdAt": "2026-11-20T06:52:54Z",
+      "carId": "atto2c",
+      "title": "BYD Atto 2 Comfort 64.8 kWh: price up £15",
+      "message": "Price £34,950 → £34,965, the list price Auto Express shows for the 150kW Comfort 65kWh. Small change, from one source. #cardata",
+      "confidence": "medium",
+      "sources": [
+        "https://www.autoexpress.co.uk/byd/atto-2/prices-specs/108223/150kw-comfort-65kwh-5dr-auto"
+      ],
+      "changes": [
+        {
+          "path": "specs.price.value",
+          "from": 34950,
+          "to": 34965
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-atto2c-range",
+      "createdAt": "2026-11-20T06:52:54Z",
+      "carId": "atto2c",
+      "title": "BYD Atto 2 Comfort 64.8 kWh: range may be higher",
+      "message": "Stored range is 261 miles, but Auto Express says 270 and EV Database 267 WLTP miles. Not changed because no BYD UK figure was found; worth checking byd.com/uk. #cardata",
+      "confidence": "low",
+      "sources": [
+        "https://www.autoexpress.co.uk/byd/atto-2/prices-specs/108223/150kw-comfort-65kwh-5dr-auto",
+        "https://ev-database.org/uk/car/3268/BYD-ATTO-2-648-kWh"
       ],
       "changes": null
     }
