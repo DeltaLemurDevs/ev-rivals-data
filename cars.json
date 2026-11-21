@@ -1098,6 +1098,13 @@
           "status": "confirmed",
           "confirmation": null
         }
+      },
+      "image": {
+        "file": "images/ev6-20261121234809.jpg",
+        "fileDark": "images/ev6-20261121234809-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
       }
     },
     {
