@@ -431,9 +431,11 @@
           }
         },
         "range": {
-          "value": 261,
+          "value": 267,
           "status": "confirmed",
-          "confirmation": null
+          "confirmation": {
+            "on": "2026-11-21"
+          }
         },
         "battery": {
           "value": 64.8,
@@ -2684,9 +2686,7 @@
           "value": 29185,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-21",
-            "source": "autoexpress.co.uk",
-            "by": "AI Monitor"
+            "on": "2026-11-21"
           }
         },
         "range": {
