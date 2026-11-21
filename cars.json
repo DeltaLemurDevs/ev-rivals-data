@@ -2658,7 +2658,7 @@
       },
       "status": "current",
       "priceBasis": "current",
-      "checked": "2026-11-20",
+      "checked": "2026-11-21",
       "classification": {
         "segment": "B",
         "bodyType": "hatchback",
@@ -2681,10 +2681,12 @@
       },
       "specs": {
         "price": {
-          "value": 27695,
+          "value": 29185,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-20"
+            "on": "2026-11-21",
+            "source": "autoexpress.co.uk",
+            "by": "AI Monitor"
           }
         },
         "range": {
