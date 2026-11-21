@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -634,9 +634,9 @@
       "modelYear": 2021,
       "onSale": {
         "from": 2021,
-        "to": null
+        "to": 2025
       },
-      "status": "current",
+      "status": "discontinued",
       "classification": {
         "segment": "B",
         "bodyType": "suv",
@@ -660,7 +660,7 @@
         "note": "Tested in 2019 on the original ZS EV. The page does not list the 2021 73 kWh Long Range version. Euro NCAP marks it expired from 1 Jan 2026."
       },
       "priceBasis": "current",
-      "checked": "2026-11-01",
+      "checked": "2026-11-21",
       "specs": {
         "price": {
           "value": 32995,
