@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-20T06:52:54Z",
+  "lastRun": "2026-11-21T06:54:44Z",
   "checked": {
-    "cardata": "2026-11-20T06:52:54Z"
+    "cardata": "2026-11-21T06:54:44Z"
   },
   "lastRunCars": [
-    "atto2c",
     "5-25-52kwh-iconic",
-    "megane"
+    "zsev",
+    "m3-26std"
   ],
   "suggestions": [
     {
@@ -108,6 +108,51 @@
         "https://ev-database.org/uk/car/3268/BYD-ATTO-2-648-kWh"
       ],
       "changes": null
+    },
+    {
+      "id": "2026-11-21-zsev-status",
+      "createdAt": "2026-11-21T06:54:44Z",
+      "carId": "zsev",
+      "title": "MG ZS EV SE Long Range 73 kWh: no longer sold new",
+      "message": "Status current → discontinued, on sale until 2025. Fleet News lists it as 'no longer for sale' (available until 07-2025) and Autocar/Electrifying report the MG S5 EV replaced it, though Auto Express still shows a £32,995 price, so worth a quick look at mg.co.uk first. #cardata",
+      "confidence": "medium",
+      "sources": [
+        "https://www.fleetnews.co.uk/electric-fleet/electric-car-and-van-data/mg/zs-ev-1541",
+        "https://www.autocar.co.uk/car-news/new-cars/mg-releases-first-pictures-zs-ev-replacement",
+        "https://www.electrifying.com/blog/article/new-mg-s5-ev-to-replace-zs-ev-in-2025-with-more-range-and-tech",
+        "https://www.autoexpress.co.uk/mg/zs/ev/prices-specs"
+      ],
+      "changes": [
+        {
+          "path": "status",
+          "from": "current",
+          "to": "discontinued"
+        },
+        {
+          "path": "onSale.to",
+          "from": null,
+          "to": 2025
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-5-25-52kwh-iconic-price",
+      "createdAt": "2026-11-21T06:54:44Z",
+      "carId": "5-25-52kwh-iconic",
+      "title": "Renault 5 52kWh Comfort / Iconic: Iconic price higher",
+      "message": "Price £27,695 → £29,185. Auto Express lists the 52kWh Iconic Five Comfort Range at £29,185 (Techno is £27,185); £27,695 looks like a lower trim. The £3,750 Electric Car Grant applies but this is the RRP before it. #cardata",
+      "confidence": "medium",
+      "sources": [
+        "https://www.autoexpress.co.uk/renault/5/prices-specs/106980/110kw-iconic-five-comfort-range-52kwh-5dr-auto",
+        "https://www.autoexpress.co.uk/renault/5/prices-specs/106979/110kw-techno-comfort-range-52kwh-5dr-auto"
+      ],
+      "changes": [
+        {
+          "path": "specs.price.value",
+          "from": 27695,
+          "to": 29185
+        }
+      ]
     }
   ]
 }
