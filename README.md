@@ -37,14 +37,14 @@ Users' own choices (owned cars, priorities, appearance) are **never** stored her
 | `status` | `current` or `discontinued`. Only `current` cars set the scoring scale. | `current` |
 | `classification` | Segment and body type (see below). | |
 | `priceBasis` | `current` = today's UK price (re-checked). `when-new` = historic price, never re-checked. | `when-new` |
-| `source` | Where the figures came from. | `EV Database #3403, Carwow, Nov 2026` |
+| `sources` | Optional list of references for the car's figures, usually web addresses. Shown in the app's Sources box. | `["https://www.kia.com/uk"]` |
 | `checked` | When the figures were last checked. | `2026-11-01` |
 | `specs` | One entry per figure (see below). | |
 
 ## Segment and body type (`classification`)
 
 ```json
-"classification": { "segment": "B", "bodyType": "suv", "status": "unconfirmed", "note": "4.30 m long: sources split between B-SUV and C-SUV" }
+"classification": { "segment": "B", "bodyType": "suv", "status": "unconfirmed" }
 ```
 
 | Field | Meaning |
@@ -52,7 +52,6 @@ Users' own choices (owned cars, priorities, appearance) are **never** stored her
 | `segment` | `A` to `F`. Cars in the same segment are scored against each other for the "for its class" score. |
 | `bodyType` | One of `bodyTypes`. |
 | `status` | `confirmed` if a manufacturer or most sources agree, `unconfirmed` if sources disagree. |
-| `note` | Optional. Why a borderline car was put in this segment. |
 
 Segments are a convention, not an official rating, so a borderline car is a judgement call. Length alone can't decide it: SUVs are shorter than hatchbacks of the same class.
 
