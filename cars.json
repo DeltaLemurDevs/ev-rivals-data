@@ -992,7 +992,10 @@
         "focus": 0.5,
         "focusWide": 0.5,
         "licence": "own"
-      }
+      },
+      "sources": [
+        "https://www.kia.com/uk"
+      ]
     },
     {
       "id": "ev6",
