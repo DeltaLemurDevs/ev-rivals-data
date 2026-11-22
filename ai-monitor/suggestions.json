@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-21T06:54:44Z",
+  "lastRun": "2026-11-22T06:54:40Z",
   "checked": {
-    "cardata": "2026-11-21T06:54:44Z"
+    "cardata": "2026-11-22T06:54:40Z"
   },
   "lastRunCars": [
-    "5-25-52kwh-iconic",
-    "zsev",
-    "m3-26std"
+    "atto2b",
+    "ariya-26-63",
+    "m3-26p"
   ],
   "suggestions": [
     {
@@ -153,6 +153,43 @@
           "to": 29185
         }
       ]
+    },
+    {
+      "id": "2026-11-22-ariya-26-63-newtrim-87kwh-advance",
+      "createdAt": "2026-11-22T06:54:40Z",
+      "carId": "ariya-26-63",
+      "title": "Nissan Ariya: missing trim 87kWh Advance",
+      "message": "The facelifted 2026 Ariya is sold in the UK as 63kWh Engage+ and 87kWh Advance, but EV Rivals only has the Engage+. Duplicate the 63kWh Engage+ and set the version and 87 kWh battery; please check price (sources say £43,415–£43,425), range, power, 0-62, weight and insurance group, as Nissan hasn't confirmed UK figures yet. #cardata #newtrim",
+      "confidence": "medium",
+      "sources": [
+        "https://www.autoexpress.co.uk/nissan/ariya/367999/nissan-ariya-gets-new-look-and-lower-price",
+        "https://www.honestjohn.co.uk/news/new-cars/2026-05/2026-nissan-ariya/"
+      ],
+      "changes": null,
+      "duplicate": {
+        "fromCarId": "ariya-26-63",
+        "newId": "ariya-26-87",
+        "overrides": [
+          {
+            "path": "version",
+            "to": "87kWh Advance"
+          },
+          {
+            "path": "specs.battery.value",
+            "to": 87
+          }
+        ],
+        "unverifiedPaths": [
+          "specs.price.value",
+          "specs.range.value",
+          "specs.power.value",
+          "specs.torque.value",
+          "specs.zero62.value",
+          "specs.weight.value",
+          "specs.insuranceGroup.value",
+          "specs.dc.value"
+        ]
+      }
     }
   ]
 }
