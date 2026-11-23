@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -777,12 +777,16 @@
         "status": "confirmed"
       },
       "priceBasis": "current",
-      "checked": "2026-11-01",
+      "checked": "2026-11-23",
       "specs": {
         "price": {
-          "value": 26995,
+          "value": 27995,
           "status": "confirmed",
-          "confirmation": null
+          "confirmation": {
+            "on": "2026-11-23",
+            "source": "kia.com",
+            "by": "AI Monitor"
+          }
         },
         "range": {
           "value": 275,
