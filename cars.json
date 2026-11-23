@@ -745,6 +745,15 @@
         "focus": 0.5,
         "focusWide": 0.5,
         "licence": "own"
+      },
+      "sources": [
+        "https://www.autotrader.co.uk/cars/used/mg/suv/electric/mg-zs"
+      ],
+      "extras": {
+        "vehicleToLoad": true,
+        "appleCarPlay": true,
+        "androidAuto": true,
+        "adaptiveCruiseControl": true
       }
     },
     {
