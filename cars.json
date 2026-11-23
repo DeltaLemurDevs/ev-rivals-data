@@ -1151,13 +1151,15 @@
         "status": "confirmed"
       },
       "priceBasis": "current",
-      "checked": "2026-11-01",
+      "checked": "2026-11-23",
       "specs": {
         "price": {
-          "value": 64995,
+          "value": 66645,
           "status": "confirmed",
           "confirmation": {
-            "on": "2026-11-12"
+            "on": "2026-11-23",
+            "source": "kia.com",
+            "by": "AI Monitor"
           }
         },
         "range": {
