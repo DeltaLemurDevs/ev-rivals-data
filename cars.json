@@ -3376,6 +3376,302 @@
         "focusWide": 0.5,
         "licence": "own"
       }
+    },
+    {
+      "id": "kia-ev2-61kwh-gt-line",
+      "make": "Kia",
+      "model": "EV2",
+      "version": "61 kWh GT-Line",
+      "modelYear": 2026,
+      "onSale": {
+        "from": 2026,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "checked": "2026-11-23",
+      "sources": [
+        "https://www.kia.com/uk"
+      ],
+      "classification": {
+        "segment": "B",
+        "bodyType": "suv",
+        "status": "confirmed"
+      },
+      "extras": {
+        "vehicleToLoad": false,
+        "appleCarPlay": true,
+        "androidAuto": true,
+        "adaptiveCruiseControl": true
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2026,
+        "stars": 5,
+        "scores": {
+          "safeDriving": 74,
+          "crashAvoidance": 66,
+          "crashProtection": 86,
+          "postCrash": 89
+        },
+        "published": "2026-10-12",
+        "source": "https://www.euroncap.com/assessments/kia/ev2/1265/",
+        "checked": "2026-11-18",
+        "status": "confirmed"
+      },
+      "specs": {
+        "price": {
+          "value": 32745,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "range": {
+          "value": 261,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "battery": {
+          "value": 61,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "dc": {
+          "value": 118,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "power": {
+          "value": 133,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "torque": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "zero62": {
+          "value": 9.7,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "top": {
+          "value": 100,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "boot": {
+          "value": 362,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "bootMax": {
+          "value": 1201,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "weight": {
+          "value": 1665,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "insuranceGroup": {
+          "value": 21,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "cd": {
+          "value": 0.29,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4065,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        }
+      },
+      "image": {
+        "file": "images/ev2-20261122142308.jpg",
+        "fileDark": "images/ev2-20261122142308-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
+      }
+    },
+    {
+      "id": "kia-ev2-61kwh-gt-line-s",
+      "make": "Kia",
+      "model": "EV2",
+      "version": "61 kWh GT-Line S",
+      "modelYear": 2026,
+      "onSale": {
+        "from": 2026,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "checked": "2026-11-23",
+      "sources": [
+        "https://www.kia.com/uk"
+      ],
+      "classification": {
+        "segment": "B",
+        "bodyType": "suv",
+        "status": "confirmed"
+      },
+      "extras": {
+        "vehicleToLoad": true,
+        "appleCarPlay": true,
+        "androidAuto": true,
+        "adaptiveCruiseControl": true
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2026,
+        "stars": 5,
+        "scores": {
+          "safeDriving": 74,
+          "crashAvoidance": 66,
+          "crashProtection": 86,
+          "postCrash": 89
+        },
+        "published": "2026-10-12",
+        "source": "https://www.euroncap.com/assessments/kia/ev2/1265/",
+        "checked": "2026-11-18",
+        "status": "confirmed"
+      },
+      "specs": {
+        "price": {
+          "value": 36345,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "range": {
+          "value": 275,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "battery": {
+          "value": 61,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "dc": {
+          "value": 118,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "power": {
+          "value": 133,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "torque": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "zero62": {
+          "value": 9.7,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "top": {
+          "value": 100,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "boot": {
+          "value": 362,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "bootMax": {
+          "value": 1201,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "weight": {
+          "value": 1665,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "insuranceGroup": {
+          "value": 21,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        },
+        "cd": {
+          "value": 0.29,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4065,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
+        }
+      },
+      "image": {
+        "file": "images/ev2-20261122142308.jpg",
+        "fileDark": "images/ev2-20261122142308-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
+      }
     }
   ]
 }
