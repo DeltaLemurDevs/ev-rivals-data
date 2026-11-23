@@ -391,6 +391,13 @@
         "rated": false,
         "checked": "2026-11-18",
         "note": "No Euro NCAP rating found on euroncap.com (only a Green NCAP result)."
+      },
+      "image": {
+        "file": "images/atto2b-20261123140009.jpg",
+        "fileDark": "images/atto2b-20261123140009-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
       }
     },
     {
