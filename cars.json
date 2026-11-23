@@ -381,12 +381,6 @@
           "confirmation": null
         }
       },
-      "image": {
-        "file": "images/atto2b-20261111202231.jpg",
-        "focus": 0.5,
-        "focusWide": 0.5,
-        "licence": "own"
-      },
       "extras": {
         "vehicleToLoad": true,
         "appleCarPlay": true,
