@@ -500,6 +500,13 @@
           "status": "confirmed",
           "confirmation": null
         }
+      },
+      "image": {
+        "file": "images/atto2c-20261123140050.jpg",
+        "fileDark": "images/atto2c-20261123140050-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
       }
     },
     {
