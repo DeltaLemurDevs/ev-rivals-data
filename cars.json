@@ -3506,8 +3506,10 @@
         },
         "cd": {
           "value": 0.29,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
         },
         "length": {
           "value": 4065,
@@ -3654,8 +3656,10 @@
         },
         "cd": {
           "value": 0.29,
-          "status": "unconfirmed",
-          "confirmation": null
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-23"
+          }
         },
         "length": {
           "value": 4065,
