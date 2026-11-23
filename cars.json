@@ -1229,6 +1229,13 @@
           "status": "confirmed",
           "confirmation": null
         }
+      },
+      "image": {
+        "file": "images/ev9-20261123175145.jpg",
+        "fileDark": "images/ev9-20261123175145-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
       }
     },
     {
