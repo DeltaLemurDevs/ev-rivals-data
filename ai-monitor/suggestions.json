@@ -2,7 +2,8 @@
   "schemaVersion": 1,
   "lastRun": "2026-11-24T06:51:21Z",
   "checked": {
-    "cardata": "2026-11-24T06:51:21Z"
+    "cardata": "2026-11-24T06:51:21Z",
+    "secure": "2026-11-24T15:51:40Z"
   },
   "lastRunCars": [
     "m3-26p",
@@ -461,6 +462,120 @@
           }
         ]
       }
+    },
+    {
+      "id": "sec-ai-accept-no-path-allowlist",
+      "createdAt": "2026-11-24T15:51:40Z",
+      "title": "[Medium risk] Accepting an AI suggestion can change any field in a car",
+      "message": "Risk: Medium. Accept writes whatever field a suggestion names to cars.json on GitHub, including the car's id or photo file, with no list of allowed fields and no check that the value type stays the same. #security",
+      "detail": "File: EV Rivals Admin/AIMonitorApply.swift, lines 18–73 (applySuggestion). What's wrong: each change's \"path\" (e.g. \"specs.price.value\") comes straight from suggestions.json. The only checks are that the field exists, that its current value equals \"from\", and that the finished file still decodes. So a suggestion with path \"id\", \"image.file\", \"sources\" or \"status\" (to any text, e.g. \"banana\") would be committed. A number could also be swapped for text where the decoder doesn't mind. The duplicate-a-trim feature already has an allow list (isAllowedDuplicatePath, lines 115–125), but normal Accept doesn't use one. Also, in AIMonitorView.swift lines 245–256, swiping Accept on a \"high\" confidence suggestion commits straight away without showing it, and \"confidence\" is just text in the file. Why it matters: suggestions.json is written by an automated AI job that reads web pages. A bad run, or anyone else who gets write access to ev-rivals-data, could make one tap break users' Owned ticks (README says ids must never change) or point a car at the wrong photo. How to fix: at the top of the safety-check loop (line 37), add: `guard Self.isAllowedDuplicatePath(change.path), change.path != \"make\", change.path != \"model\" else { return .changedSince(\"\\(change.path) can't be changed by a suggestion.\") }` (or write a separate isAllowedChangePath list). Also check the type stays the same: add a small helper `func sameKind(_ a: JSONValue, _ b: JSONValue) -> Bool { switch (a, b) { case (.string, .string), (.number, .number), (.bool, .bool), (.null, _), (_, .null): true; default: false } }` and `guard sameKind(change.from, change.to) else { return .changedSince(\"\\(change.path) would change type.\") }`. Optionally make swipe-Accept always open the pop-up first.",
+      "confidence": "high",
+      "sources": [
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals%20Admin/AIMonitorApply.swift#L18-L73",
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals%20Admin/AIMonitorApply.swift#L115-L125",
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals%20Admin/AIMonitorView.swift#L245-L256",
+        "https://owasp.org/www-project-mobile-top-10/2023-risks/m4-insufficient-input-output-validation"
+      ],
+      "carId": null,
+      "changes": null
+    },
+    {
+      "id": "sec-main-app-one-bad-car-blocks-update",
+      "createdAt": "2026-11-24T15:51:40Z",
+      "title": "[Medium risk] One unexpected value in cars.json stops every user's app updating",
+      "message": "Risk: Medium. The main app decodes cars.json all-or-nothing, so one car with a new photo licence type or a missing field makes every phone keep its old list and show \"Offline\". #security",
+      "detail": "File: EV Rivals/Model/CarRepository.swift, lines 396–424, and EV Rivals/Model/CarImage.swift, lines 497 and 502–505. What's wrong: decodeChecked uses JSONDecoder on the whole CarCatalog. CarImageLicence is a fixed list (own, unsplash, permission, ai-illustration) and is decoded with `decodeIfPresent(CarImageLicence.self…)`, which THROWS for any other text rather than returning nil. So if you ever add a new licence (say \"cc-by\") in the Admin app, every copy of the main app already on people's phones fails the whole download. The same happens for one car with a missing \"status\" or a figure that isn't a number. downloadLatest then returns nil and the status line says \"Offline · saved data\" even though the phone is online, forever, until users update the app. Why it matters: this is the public app, so one data change can quietly freeze every user's car list. How to fix (paste into Xcode's assistant): 1) In CarImage.init(from:), change the licence line to `licence = (try? c.decodeIfPresent(String.self, forKey: .licence)).flatMap { $0.flatMap(CarImageLicence.init(rawValue:)) }` so an unknown licence just becomes nil. 2) Ask the assistant to decode the \"cars\" array leniently: wrap each car in a small `struct Lossy<T: Decodable>: Decodable { let value: T?; init(from d: Decoder) { value = try? T(from: d) } }` and keep only the cars that decoded (the Admin app's SuggestionsFile already does this with LossySuggestion). 3) Optionally show \"Data couldn't be read\" instead of \"Offline\" when the download worked but decoding failed.",
+      "confidence": "high",
+      "sources": [
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals/Model/CarRepository.swift#L396-L424",
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals/Model/CarImage.swift#L490-L505"
+      ],
+      "carId": null,
+      "changes": null
+    },
+    {
+      "id": "sec-ipad-editor-edits-lost-on-store-change",
+      "createdAt": "2026-11-24T15:51:40Z",
+      "title": "[Medium risk] iPad: unsaved typing in the car editor can vanish without warning",
+      "message": "Risk: Medium. On iPad the editor is rebuilt whenever the stored copy of that car changes (for example after saving its photo or accepting a suggestion), which wipes edits you haven't saved yet. #security",
+      "detail": "File: EV Rivals Admin/ContentView.swift, lines 197–201 and 296–300. What's wrong: the editor has `.id(EditorKey(car: car, reset: resetCount))`, and EditorKey contains the whole Car value. When anything changes that car in the store — saving or removing a photo in the editor's own Photo section (commitPhoto → adoptPhotoCommit in AdminStore.swift lines 484–504 changes car.image), accepting an AI suggestion for it, a reload, or swipe-Discontinue in the list — SwiftUI throws the old editor away and makes a new one, so its @State form (typed but unsaved price, figures, etc.) is reset. The 'unsaved edits' warning only runs when you pick another car or tab. Why it matters: silent loss of your edits. Example: type a new price, then save a photo for the same car — the price edit disappears. How to fix: key the editor on the car's id instead of the whole car, e.g. change EditorKey to `let carID: String; let reset: Int` and use `.id(EditorKey(carID: car.id, reset: resetCount))`. Then, inside CarEditView, when the stored car's photo changes, update only the photo part of `start`/`form` (ask the assistant: \"when `car.image` changes, copy it into start and form without resetting other fields\").",
+      "confidence": "medium",
+      "sources": [
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals%20Admin/ContentView.swift#L197-L201",
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals%20Admin/ContentView.swift#L296-L300",
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals%20Admin/AdminStore.swift#L484-L504"
+      ],
+      "carId": null,
+      "changes": null
+    },
+    {
+      "id": "sec-unsaved-photo-lost-on-editor-save",
+      "createdAt": "2026-11-24T15:51:40Z",
+      "title": "[Medium risk] A picked but unsaved photo is dropped when you tap Save or Cancel",
+      "message": "Risk: Medium. The editor's Save and Cancel buttons don't know about a photo you've picked and framed but not yet saved with the Photo section's own button, so it is silently thrown away. #security",
+      "detail": "Files: EV Rivals Admin/CarEditView.swift, line 104 (hasEdits) and lines 225–247 (Cancel / Save); EV Rivals Admin/CarPhotoSection.swift, lines 20–34 (the photo's own @State). What's wrong: hasEdits only compares the text form with the car as opened. The new photo, dark photo, focus, credit and licence live only inside CarPhotoSection and are uploaded only by that section's save button. Tapping the top Save closes the editor (or rebuilds it on iPad) and Cancel doesn't ask \"Discard?\", so the picked photo is lost with no message. Why it matters: lost work and confusion about whether the photo was published. How to fix: have CarPhotoSection report that it has an unsaved photo, e.g. a `@Binding var hasUnsavedPhoto: Bool` set to `newPhoto != nil || newDark != nil`, and in CarEditView use `hasEdits || hasUnsavedPhoto` for the Cancel confirmation and `.interactiveDismissDisabled`. For Save, either disable it while a photo is unsaved or show \"Save the photo first\".",
+      "confidence": "medium",
+      "sources": [
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals%20Admin/CarEditView.swift#L104",
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals%20Admin/CarEditView.swift#L225-L247",
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals%20Admin/CarPhotoSection.swift#L20-L34"
+      ],
+      "carId": null,
+      "changes": null
+    },
+    {
+      "id": "sec-main-app-missing-privacy-manifest",
+      "createdAt": "2026-11-24T15:51:40Z",
+      "title": "[Medium risk] Main app has no privacy manifest but uses UserDefaults",
+      "message": "Risk: Medium. Apple requires a PrivacyInfo.xcprivacy file declaring why an app uses UserDefaults, and none is in the project, so App Store uploads can be flagged or rejected. #security",
+      "detail": "File: EV Rivals/Model/AppModel.swift, lines 54–60 (and the other defaults.set / defaults.string calls around lines 95–104); no PrivacyInfo.xcprivacy anywhere in the repo. What's wrong: UserDefaults is one of Apple's \"required reason\" APIs. Since May 2024 App Store Connect expects apps that use it to include a privacy manifest naming the reason. What's stored is harmless (owned car ids, favourites, sort choices, appearance), so this is about passing review, not a leak. How to fix: in Xcode choose File > New > File… > App Privacy, name it PrivacyInfo, add it to the EV Rivals target. Under \"Privacy Accessed API Types\" add \"User Defaults\" with reason \"CA92.1\" (access info from the same app). Set \"Privacy Tracking Enabled\" to NO and leave \"Collected Data Types\" empty (the app collects nothing).",
+      "confidence": "medium",
+      "sources": [
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals/Model/AppModel.swift#L54-L60",
+        "https://developer.apple.com/documentation/bundleresources/privacy-manifest-files/describing-use-of-required-reason-api"
+      ],
+      "carId": null,
+      "changes": null
+    },
+    {
+      "id": "sec-ai-source-links-any-scheme",
+      "createdAt": "2026-11-24T15:51:40Z",
+      "title": "[Low risk] AI suggestion source links open any kind of address",
+      "message": "Risk: Low. Links in a suggestion's Sources list are made tappable for any URL type (tel:, sms:, shortcuts:, app links), not just web pages, and are labelled only with the host, which can hide what a tap does. #security",
+      "detail": "File: EV Rivals Admin/AIMonitorSheets.swift, lines 106–112. What's wrong: `if let url = URL(string: address) { Link(destination: url) { Label(AdminStore.host(address) ?? address …) } }` accepts any scheme. The text comes from suggestions.json, which is written by an automated job. A source like `shortcuts://run-shortcut?name=…` or `tel:…` would be a one-tap action with a misleading label. Why it matters: small, but it's untrusted text turned into an action on Nick's phone that holds the GitHub token. How to fix: only make a link for web addresses: `if let url = URL(string: address), [\"https\", \"http\"].contains(url.scheme?.lowercased() ?? \"\"), url.host() != nil { Link(...) } else { Text(address) ... }`. CarEditView.shortSource already does a check like this.",
+      "confidence": "high",
+      "sources": [
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals%20Admin/AIMonitorSheets.swift#L106-L112"
+      ],
+      "carId": null,
+      "changes": null
+    },
+    {
+      "id": "sec-ncap-link-label-any-host",
+      "createdAt": "2026-11-24T15:51:40Z",
+      "title": "[Low risk] \"View on euroncap.com\" link can point to any website",
+      "message": "Risk: Low. The NCAP sheet in the main app always labels the source link \"View on euroncap.com\" but opens whatever address is in cars.json, including plain http and other sites. #security",
+      "detail": "File: EV Rivals/Views/NcapSheet.swift, lines 120–121. What's wrong: `if let source = ncap.source, let url = URL(string: source), url.scheme?.hasPrefix(\"http\") == true { Link(\"View on euroncap.com\", destination: url) }`. The label is fixed text, so a typo or a bad value in cars.json sends users somewhere else while the button promises Euro NCAP. hasPrefix(\"http\") also lets through odd schemes like \"httpx:\" and insecure http. How to fix: require https and the Euro NCAP host, or show the real host: `if let source = ncap.source, let url = URL(string: source), url.scheme == \"https\", let host = url.host(), host == \"euroncap.com\" || host.hasSuffix(\".euroncap.com\") { Link(\"View on euroncap.com\", destination: url) }`.",
+      "confidence": "high",
+      "sources": [
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals/Views/NcapSheet.swift#L120-L121"
+      ],
+      "carId": null,
+      "changes": null
+    },
+    {
+      "id": "sec-xcuserdata-committed",
+      "createdAt": "2026-11-24T15:51:40Z",
+      "title": "[Low risk] Personal Xcode files (xcuserdata) are committed to the repo",
+      "message": "Risk: Low. Two files under xcuserdata/nickramsay.xcuserdatad are in git, and the repo has no .gitignore, so personal Xcode settings (and your Mac user name) get committed. #security",
+      "detail": "Files: EV Rivals.xcodeproj/xcuserdata/nickramsay.xcuserdatad/xcschemes/xcschememanagement.plist and EV Rivals.xcodeproj/project.xcworkspace/xcuserdata/nickramsay.xcuserdatad/WorkspaceSettings.xcsettings. What's wrong: these are per-user Xcode files. They hold nothing secret today, but without a .gitignore, other local files (breakpoints, .DS_Store, a future Secrets.xcconfig or exported .p8 key) could be committed by accident. How to fix: add a file called .gitignore at the top of the repo containing:\nxcuserdata/\n.DS_Store\n*.xcconfig.local\nDerivedData/\nThen in Terminal in the repo folder run `git rm -r --cached \"EV Rivals.xcodeproj/xcuserdata\" \"EV Rivals.xcodeproj/project.xcworkspace/xcuserdata\"` and commit. (Xcode's Source Control menu can't do the rm --cached step.)",
+      "confidence": "high",
+      "sources": [
+        "https://github.com/DeltaLemurDevs/EV-Rivals/blob/main/EV%20Rivals.xcodeproj/xcuserdata/nickramsay.xcuserdatad/xcschemes/xcschememanagement.plist",
+        "https://github.com/github/gitignore/blob/main/Swift.gitignore"
+      ],
+      "carId": null,
+      "changes": null
     }
   ]
 }
