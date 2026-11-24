@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-23T06:56:51Z",
+  "lastRun": "2026-11-24T06:51:21Z",
   "checked": {
-    "cardata": "2026-11-23T06:56:51Z"
+    "cardata": "2026-11-24T06:51:21Z"
   },
   "lastRunCars": [
-    "m3-26pawd",
-    "ev2",
-    "ev9"
+    "m3-26p",
+    "kia-ev2-61kwh-gt-line",
+    "tavascan-24-v1"
   ],
   "suggestions": [
     {
@@ -329,6 +329,135 @@
           {
             "path": "specs.insuranceGroup.value",
             "to": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "trim-kia-ev2-42kwh-first-edition",
+      "createdAt": "2026-11-24T06:51:21Z",
+      "title": "Kia EV2 42 kWh First Edition: new trim",
+      "message": "A UK trim not in the list yet: the 42 kWh First Edition, from £28,495. #cardata",
+      "detail": "Copies the EV2 61 kWh Air. Kia UK lists it at £28,495 (before the £1,500 grant), 42.2 kWh, 144 bhp (107.8 kW), up to 195 miles WLTP. Please check rapid charge (kW), 0-62 (about 8.7s per misterev), weight and insurance group, which likely differ but weren't confirmed.",
+      "confidence": "high",
+      "sources": [
+        "https://www.kia.com/uk/new-cars/ev2/",
+        "https://www.carwow.co.uk/kia/ev2"
+      ],
+      "carId": "ev2",
+      "changes": null,
+      "duplicate": {
+        "fromCarId": "ev2",
+        "newId": "kia-ev2-42kwh-first-edition",
+        "overrides": [
+          {
+            "path": "version",
+            "to": "42 kWh First Edition"
+          },
+          {
+            "path": "specs.price.value",
+            "to": 28495
+          },
+          {
+            "path": "specs.battery.value",
+            "to": 42.2
+          },
+          {
+            "path": "specs.power.value",
+            "to": 145
+          },
+          {
+            "path": "specs.range.value",
+            "to": 195
+          }
+        ]
+      }
+    },
+    {
+      "id": "trim-cupra-tavascan-58kwh-origin",
+      "createdAt": "2026-11-24T06:51:21Z",
+      "title": "Cupra Tavascan 58 kWh Origin: new trim",
+      "message": "A new entry-level UK trim launched October 2026, from £39,995. #cardata",
+      "detail": "Copies the Tavascan V1 (77 kWh). Origin has a 58 kWh battery, 140 kW (188 hp) motor, up to 273 miles WLTP, 105 kW rapid charging, 0-62 in 8.6s. Auto Express lists it at £39,985 (£10 lower). Please check weight, torque, top speed and insurance group. The same 58 kWh battery is also offered on V1 and V2.",
+      "confidence": "medium",
+      "sources": [
+        "https://fleetworld.co.uk/cupra-slashes-tavascan-entry-price-to-under-40k-with-new-entry-level-model/",
+        "https://www.electrive.com/2026/10/16/new-entry-level-cupra-tavascan-launched-in-the-uk/",
+        "https://www.autoexpress.co.uk/cupra/tavascan/prices-specs"
+      ],
+      "carId": "tavascan-24-v1",
+      "changes": null,
+      "duplicate": {
+        "fromCarId": "tavascan-24-v1",
+        "newId": "cupra-tavascan-58kwh-origin",
+        "overrides": [
+          {
+            "path": "version",
+            "to": "Origin 58 kWh"
+          },
+          {
+            "path": "modelYear",
+            "to": 2026
+          },
+          {
+            "path": "onSale.from",
+            "to": 2026
+          },
+          {
+            "path": "specs.price.value",
+            "to": 39995
+          },
+          {
+            "path": "specs.battery.value",
+            "to": 58
+          },
+          {
+            "path": "specs.power.value",
+            "to": 188
+          },
+          {
+            "path": "specs.range.value",
+            "to": 273
+          },
+          {
+            "path": "specs.dc.value",
+            "to": 105
+          },
+          {
+            "path": "specs.zero62.value",
+            "to": 8.6
+          }
+        ]
+      }
+    },
+    {
+      "id": "trim-cupra-tavascan-77kwh-vz-awd",
+      "createdAt": "2026-11-24T06:51:21Z",
+      "title": "Cupra Tavascan VZ 77 kWh AWD: new trim",
+      "message": "The four-wheel-drive VZ is on sale in the UK but not in the list, from £54,930. #cardata",
+      "detail": "Copies the Tavascan V1. VZ is 77 kWh AWD, 250 kW (335 hp), priced £54,930 after the July 2026 cut. Auto Express shows it as 'VZ1' from £55,510, so please check the price on Cupra's configurator. Range, 0-62 (about 5.5s), torque, weight and insurance group differ and need checking.",
+      "confidence": "medium",
+      "sources": [
+        "https://fleetworld.co.uk/cupra-slashes-tavascan-entry-price-to-under-40k-with-new-entry-level-model/",
+        "https://www.electrive.com/2026/10/16/new-entry-level-cupra-tavascan-launched-in-the-uk/"
+      ],
+      "carId": "tavascan-24-v1",
+      "changes": null,
+      "duplicate": {
+        "fromCarId": "tavascan-24-v1",
+        "newId": "cupra-tavascan-77kwh-vz-awd",
+        "overrides": [
+          {
+            "path": "version",
+            "to": "VZ 77 kWh AWD"
+          },
+          {
+            "path": "specs.price.value",
+            "to": 54930
+          },
+          {
+            "path": "specs.power.value",
+            "to": 335
           }
         ]
       }
