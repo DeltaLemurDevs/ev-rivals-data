@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -3681,6 +3681,154 @@
       "image": {
         "file": "images/ev2-20261122142308.jpg",
         "fileDark": "images/ev2-20261122142308-dark.jpg",
+        "focus": 0.5,
+        "focusWide": 0.5,
+        "licence": "own"
+      }
+    },
+    {
+      "id": "kia-ev2-42kwh-first-edition",
+      "make": "Kia",
+      "model": "EV2",
+      "version": "42 kWh First Edition",
+      "modelYear": 2026,
+      "onSale": {
+        "from": 2026,
+        "to": null
+      },
+      "status": "current",
+      "priceBasis": "current",
+      "checked": "2026-11-24",
+      "sources": [
+        "https://www.kia.com/uk"
+      ],
+      "classification": {
+        "segment": "B",
+        "bodyType": "suv",
+        "status": "confirmed"
+      },
+      "extras": {
+        "vehicleToLoad": false,
+        "appleCarPlay": true,
+        "androidAuto": true,
+        "adaptiveCruiseControl": true
+      },
+      "ncap": {
+        "rated": true,
+        "protocol": 2026,
+        "stars": 5,
+        "scores": {
+          "safeDriving": 74,
+          "crashAvoidance": 66,
+          "crashProtection": 86,
+          "postCrash": 89
+        },
+        "published": "2026-10-12",
+        "source": "https://www.euroncap.com/assessments/kia/ev2/1265/",
+        "checked": "2026-11-18",
+        "status": "confirmed"
+      },
+      "specs": {
+        "price": {
+          "value": 28495,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        },
+        "range": {
+          "value": 195,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        },
+        "battery": {
+          "value": 42.2,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        },
+        "dc": {
+          "value": 118,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        },
+        "power": {
+          "value": 145,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        },
+        "torque": {
+          "value": 250,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        },
+        "zero62": {
+          "value": 8.7,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        },
+        "top": {
+          "value": 100,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        },
+        "boot": {
+          "value": 362,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        },
+        "bootMax": {
+          "value": 1201,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        },
+        "weight": {
+          "value": 1620,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        },
+        "insuranceGroup": {
+          "value": 21,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        },
+        "cd": {
+          "value": 0.29,
+          "status": "unconfirmed",
+          "confirmation": null
+        },
+        "length": {
+          "value": 4060,
+          "status": "confirmed",
+          "confirmation": {
+            "on": "2026-11-24"
+          }
+        }
+      },
+      "image": {
+        "file": "images/ev2-20261123225222.jpg",
+        "fileDark": "images/ev2-20261123225222-dark.jpg",
         "focus": 0.5,
         "focusWide": 0.5,
         "licence": "own"
