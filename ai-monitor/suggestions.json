@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-24T06:51:21Z",
+  "lastRun": "2026-11-25T06:49:28Z",
   "checked": {
-    "cardata": "2026-11-24T06:51:21Z",
+    "cardata": "2026-11-25T06:49:28Z",
     "secure": "2026-11-24T15:51:40Z"
   },
   "lastRunCars": [
+    "ev9",
     "m3-26p",
-    "kia-ev2-61kwh-gt-line",
-    "tavascan-24-v1"
+    "ariya-26-63"
   ],
   "suggestions": [
     {
@@ -576,6 +576,84 @@
       ],
       "carId": null,
       "changes": null
+    },
+    {
+      "id": "trim-kia-ev9-99kwh-gt-line-awd",
+      "createdAt": "2026-11-25T06:49:28Z",
+      "title": "Kia EV9 99.8 kWh GT-Line AWD: new trim",
+      "message": "A UK trim not in the list yet. #cardata",
+      "detail": "Copies the EV9 Air RWD. Kia UK's EV9 price list shows 'GT-Line' 99.8kWh 378bhp AWD at OTR £74,645, electric range 316 miles (WLTP), insurance group 50E. Seat count isn't stated on Kia's page. Torque, 0-62, top speed and weight will differ for the dual-motor car but weren't verified — please check. Model year/on-sale dates copied from the Air.",
+      "confidence": "high",
+      "sources": [
+        "https://www.kia.com/uk/new-cars/ev9/pricing/"
+      ],
+      "carId": "ev9",
+      "changes": null,
+      "duplicate": {
+        "fromCarId": "ev9",
+        "newId": "kia-ev9-99kwh-gt-line-awd",
+        "overrides": [
+          {
+            "path": "version",
+            "to": "99.8 kWh GT-Line AWD"
+          },
+          {
+            "path": "specs.price.value",
+            "to": 74645
+          },
+          {
+            "path": "specs.range.value",
+            "to": 316
+          },
+          {
+            "path": "specs.power.value",
+            "to": 378
+          },
+          {
+            "path": "specs.insuranceGroup.value",
+            "to": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "trim-kia-ev9-99kwh-gt-line-s-awd-6-seats",
+      "createdAt": "2026-11-25T06:49:28Z",
+      "title": "Kia EV9 99.8 kWh GT-Line S AWD, 6 seats: new trim",
+      "message": "A UK trim not in the list yet. #cardata",
+      "detail": "Copies the EV9 Air RWD. Kia UK's EV9 price list shows 'GT-Line S' 99.8kWh 378bhp AWD 6-seater at OTR £78,645 (£1,000 more than the 7-seater suggested earlier), electric range 313 miles (WLTP), insurance group 50E. Torque, 0-62, top speed, weight and boot will differ but weren't verified — please check. Model year/on-sale dates copied from the Air.",
+      "confidence": "high",
+      "sources": [
+        "https://www.kia.com/uk/new-cars/ev9/pricing/"
+      ],
+      "carId": "ev9",
+      "changes": null,
+      "duplicate": {
+        "fromCarId": "ev9",
+        "newId": "kia-ev9-99kwh-gt-line-s-awd-6-seats",
+        "overrides": [
+          {
+            "path": "version",
+            "to": "99.8 kWh GT-Line S AWD, 6 seats"
+          },
+          {
+            "path": "specs.price.value",
+            "to": 78645
+          },
+          {
+            "path": "specs.range.value",
+            "to": 313
+          },
+          {
+            "path": "specs.power.value",
+            "to": 378
+          },
+          {
+            "path": "specs.insuranceGroup.value",
+            "to": 50
+          }
+        ]
+      }
     }
   ]
 }
