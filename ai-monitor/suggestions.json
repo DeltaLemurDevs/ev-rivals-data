@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-25T06:49:28Z",
+  "lastRun": "2026-11-26T06:48:40Z",
   "checked": {
-    "cardata": "2026-11-25T06:49:28Z",
+    "cardata": "2026-11-26T06:48:40Z",
     "secure": "2026-11-24T15:51:40Z"
   },
   "lastRunCars": [
-    "ev9",
-    "m3-26p",
-    "ariya-26-63"
+    "ev6",
+    "raval-v1-52",
+    "m3-26p"
   ],
   "suggestions": [
     {
@@ -651,6 +651,126 @@
           {
             "path": "specs.insuranceGroup.value",
             "to": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "fix-raval-v1-52-price",
+      "createdAt": "2026-11-26T06:48:40Z",
+      "title": "Cupra Raval V1: price",
+      "message": "UK price should be the RRP £29,995, not £28,495 (which is the price after the £1,500 Electric Car Grant). #cardata",
+      "detail": "Autocar lists the V1 52kWh at £29,995 before the grant; Auto Express gives £28,495 'thanks to the ECG', i.e. £29,995 minus £1,500.",
+      "confidence": "high",
+      "sources": [
+        "https://www.autocar.co.uk/car-news/electric-cars/new-2026-cupra-raval-arrives-uk-%C2%A323785",
+        "https://www.autoexpress.co.uk/cupra/raval/365457/new-cupra-raval-narrows-price-gap-renault-5-new-ev-grant-discount"
+      ],
+      "carId": "raval-v1-52",
+      "changes": [
+        {
+          "path": "specs.price.value",
+          "from": 28495,
+          "to": 29995
+        }
+      ]
+    },
+    {
+      "id": "trim-kia-ev6-84kwh-gt-line-rwd",
+      "createdAt": "2026-11-26T06:48:40Z",
+      "title": "Kia EV6 84 kWh GT-Line RWD: new trim",
+      "message": "A UK trim not in the list yet. #cardata",
+      "detail": "Copies the EV6 Air RWD (same 84 kWh battery, 225bhp, 361 miles). Kia UK lists it at £48,635 OTR, insurance group 35E. Kerb weight may differ slightly; not verified.",
+      "confidence": "high",
+      "sources": [
+        "https://www.kia.com/uk/new-cars/ev6/pricing/",
+        "https://www.carwow.co.uk/kia/ev6"
+      ],
+      "carId": "ev6",
+      "changes": null,
+      "duplicate": {
+        "fromCarId": "ev6",
+        "newId": "kia-ev6-84kwh-gt-line-rwd",
+        "overrides": [
+          {
+            "path": "version",
+            "to": "84 kWh GT-Line RWD"
+          },
+          {
+            "path": "specs.price.value",
+            "to": 48635
+          },
+          {
+            "path": "specs.insuranceGroup.value",
+            "to": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": "trim-kia-ev6-84kwh-gt-line-awd",
+      "createdAt": "2026-11-26T06:48:40Z",
+      "title": "Kia EV6 84 kWh GT-Line AWD: new trim",
+      "message": "A UK trim not in the list yet. #cardata",
+      "detail": "Copies the EV6 Air RWD. Kia UK lists it at £52,135 OTR, 320bhp, 339 miles WLTP, insurance group 40E. Torque, 0-62mph and kerb weight will differ (AWD) but weren't verified — please check them.",
+      "confidence": "high",
+      "sources": [
+        "https://www.kia.com/uk/new-cars/ev6/pricing/",
+        "https://www.carwow.co.uk/kia/ev6"
+      ],
+      "carId": "ev6",
+      "changes": null,
+      "duplicate": {
+        "fromCarId": "ev6",
+        "newId": "kia-ev6-84kwh-gt-line-awd",
+        "overrides": [
+          {
+            "path": "version",
+            "to": "84 kWh GT-Line AWD"
+          },
+          {
+            "path": "specs.price.value",
+            "to": 52135
+          },
+          {
+            "path": "specs.range.value",
+            "to": 339
+          },
+          {
+            "path": "specs.power.value",
+            "to": 320
+          },
+          {
+            "path": "specs.insuranceGroup.value",
+            "to": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "trim-cupra-raval-v2-52kwh",
+      "createdAt": "2026-11-26T06:48:40Z",
+      "title": "Cupra Raval V2 52kWh: new trim",
+      "message": "A UK trim not in the list yet. #cardata",
+      "detail": "Copies the Raval V1 (same 52kWh, 210PS powertrain). RRP £32,580 (Autocar), £31,080 after the £1,500 Electric Car Grant (Auto Express). Kerb weight and insurance group may differ; not verified.",
+      "confidence": "high",
+      "sources": [
+        "https://www.autocar.co.uk/car-news/electric-cars/new-2026-cupra-raval-arrives-uk-%C2%A323785",
+        "https://www.autoexpress.co.uk/cupra/raval/365457/new-cupra-raval-narrows-price-gap-renault-5-new-ev-grant-discount"
+      ],
+      "carId": "raval-v1-52",
+      "changes": null,
+      "duplicate": {
+        "fromCarId": "raval-v1-52",
+        "newId": "cupra-raval-v2-52kwh",
+        "overrides": [
+          {
+            "path": "version",
+            "to": "V2"
+          },
+          {
+            "path": "specs.price.value",
+            "to": 32580
           }
         ]
       }
