@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "app": "EV Rivals",
   "market": "UK",
   "currency": "GBP",
@@ -397,7 +397,7 @@
         "fileDark": "images/atto2b-20261123161341-dark.jpg",
         "focus": 0.5,
         "focusWide": 0.5,
-        "licence": "own"
+        "licence": "ai-illustration"
       }
     },
     {
@@ -506,7 +506,7 @@
         "fileDark": "images/atto2b-20261123161341-dark.jpg",
         "focus": 0.5,
         "focusWide": 0.5,
-        "licence": "own"
+        "licence": "ai-illustration"
       }
     },
     {
